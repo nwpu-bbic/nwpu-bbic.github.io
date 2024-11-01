@@ -1,44 +1,880 @@
-<!doctype html><html lang=en><head><meta name=generator content="Hugo 0.110.0"><meta http-equiv=content-type content="text/html" charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge,chrome=1"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=apple-touch-icon sizes=180x180 href=https://nwpu-bbic.github.io/favicon/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=https://nwpu-bbic.github.io/favicon/favicon-32x32.png><link rel=manifest href=https://nwpu-bbic.github.io/favicon/site.webmanifest><link rel=mask-icon href=https://nwpu-bbic.github.io/favicon/safari-pinned-tab.svg color=#5bbad5><meta name=msapplication-TileColor content="#da532c"><meta name=theme-color content="#ffffff"><title itemprop=name>脑科学与类脑计算交叉研究中心 | NWPU BBIC</title><meta name=description content="脑科学与类脑计算交叉研究中心"><meta property="og:title" content="NWPU BBIC | NWPU BBIC"><meta name=twitter:title content="NWPU BBIC | NWPU BBIC"><meta itemprop=name content="NWPU BBIC | NWPU BBIC"><meta name=application-name content="NWPU BBIC | NWPU BBIC"><meta property="og:site_name" content="NWPU BBIC"><meta property="og:type" content="website"><meta property="og:title" content="NWPU BBIC"><meta property="og:description" content="脑科学与类脑计算交叉研究中心"><meta property="og:site_name" content="NWPU BBIC"><meta property="og:url" content="https://nwpu-bbic.github.io/"><meta property="og:locale" content="en"><meta property="og:image" content="/images/tailbliss-cover.png"><meta property="og:image:secure_url" content="https://nwpu-bbic.github.io/images/tailbliss-cover.png"><meta property="og:type" content="website"><script>localStorage.getItem("color-theme")==="dark"||!("color-theme"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")</script><link rel=stylesheet href="/css/style.min.81eb063726da857c93ed926a3d1979dd1feb3c834c502453253d974ff6b5db3a.css" integrity="sha256-gesGNybahXyT7ZJqPRl53R/rPINMUCRTJT2XT/a12zo="></head><body class="bg-zinc-100 dark:bg-gray-800"><div class="top-0 z-50 w-full text-gray-200 bg-gray-900 border-2 border-gray-900 md:sticky border-b-stone-200/10"><div x-data="{ open: false }" class="flex flex-col max-w-full px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8"><div class="flex flex-row items-center justify-between p-4"><a href=https://nwpu-bbic.github.io/ class="flex text-gray-100 transition duration-1000 ease-in-out group"><img src=https://nwpu-bbic.github.io/images/logo.svg class="transition-opacity h-9 w-9 group-hover:opacity-50 group-focus:opacity-70" alt="NWPU BBIC Logo"><div class="mt-1 ml-3 text-xl font-black tracking-tight text-gray-100 uppercase transition-colors group-hover:text-gray-400/60">NWPU BBIC</div></a><button class="rounded-lg md:hidden focus:outline-none focus:shadow-outline" @click="open = !open" role=navigation aria-expanded=false aria-label=Main aria-controls=menuItems><svg fill="currentcolor" viewBox="0 0 20 20" class="w-6 h-6"><path x-show="!open" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4A1 1 0 013 5zm0 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm6 5a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"/><path x-show="open" fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414.0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg></button></div><nav :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row"><a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none focus:shadow-outline" href=https://nwpu-bbic.github.io/>首页</a>
-<a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none focus:shadow-outline" href=https://nwpu-bbic.github.io/about/>团队概况</a><div @click.away="open = false" class=relative x-data="{ open: false }"><button @click="open = !open" class="flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-600 focus:outline-none focus:shadow-outline">
-<span>团队成员</span><svg fill="currentcolor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}" class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414.0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414.0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg></button><div x-show=open x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute right-0 z-30 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48"><div class="px-2 py-2 text-indigo-900 bg-white rounded-md shadow"><a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-600 focus:outline-none focus:shadow-outline" href=https://nwpu-bbic.github.io/member/>成员一览</a>
-<a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none focus:shadow-outline" href=https://nwpu-bbic.github.io/member2/>毕业去向</a></div></div></div><div @click.away="open = false" class=relative x-data="{ open: false }"><button @click="open = !open" class="flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-600 focus:outline-none focus:shadow-outline">
-<span>成果展示</span><svg fill="currentcolor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}" class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414.0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414.0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg></button><div x-show=open x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute right-0 z-30 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48"><div class="px-2 py-2 text-indigo-900 bg-white rounded-md shadow"><a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-600 focus:outline-none focus:shadow-outline" href=https://nwpu-bbic.github.io/timeline/>论文汇总</a>
-<a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none focus:shadow-outline" href=https://nwpu-bbic.github.io/timeline2/>项目成果展示</a></div></div></div><div @click.away="open = false" class=relative x-data="{ open: false }"><button @click="open = !open" class="flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-600 focus:outline-none focus:shadow-outline">
-<span>团队新闻</span><svg fill="currentcolor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}" class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414.0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414.0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg></button><div x-show=open x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute right-0 z-30 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48"><div class="px-2 py-2 text-indigo-900 bg-white rounded-md shadow"><a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-600 focus:outline-none focus:shadow-outline" href=https://nwpu-bbic.github.io/news/>全部</a>
-<a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none focus:shadow-outline" href=https://nwpu-bbic.github.io/tags/团队要闻/>团队要闻</a>
-<a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-600 focus:outline-none focus:shadow-outline" href=https://nwpu-bbic.github.io/tags/脑影像人工智能/>脑影像人工智能</a>
-<a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none focus:shadow-outline" href=https://nwpu-bbic.github.io/tags/脑机接口与智能机器人/>脑机接口与智能机器人</a>
-<a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none focus:shadow-outline" href=https://nwpu-bbic.github.io/tags/计算机辅助诊断/>计算机辅助诊断</a></div></div></div><a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none focus:shadow-outline" href=https://nwpu-bbic.github.io/join_us>加入我们</a>
-<button id=theme-toggle type=button class="p-2 text-sm text-gray-500 rounded-lg md: dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 md:ml-2 max-w-5 xs:hidden"><svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentcolor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001.0 1010.586 10.586z"/></svg><svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentcolor" viewBox="0 0 20 20" aria-label="Dark or Light Mode" xmlns="http://www.w3.org/2000/svg"><path d="M10 2a1 1 0 011 1v1A1 1 0 119 4V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707A1 1 0 1113.536 5.05l.707-.707a1 1 0 011.414.0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707A1 1 0 004.343 5.757l.707.707zm1.414 8.486-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"/></svg></button></nav></div></div><main><div class="bg-gray-200 dark:bg-gray-900"><div class="max-w-screen-xl px-4 py-8 mx-auto"><div class="grid items-center gap-8 mb-8 sm:mb-0 lg:gap-12 lg:grid-cols-12"><div class="col-span-6 px-4 text-center sm:mb-6 lg:text-left lg:mb-0"><h1 class="mb-2 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl xl:text-6xl dark:text-white">NWPU BBIC</h1><h2 class="pb-2 text-3xl font-light text-gray-800 dark:text-gray-300 md:text-4xl">脑科学与类脑计算交叉研究中心</h2><a href=news/ class="block py-4 mx-auto space-x-4 sm:inline-flex md:inline-flex sm:text-center sm:block"><span class="rounded bg-gray-50 px-2.5 py-1 text-sm font-bold text-gray-900 block max-w-fit mx-auto md:min-w-fit mb-2">What's new</span>
-<span class="inline-flex items-center mb-2 space-x-1 text-sm font-medium text-gray-800 dark:text-white md:min-w-fit"><span>最新消息</span><svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentcolor" aria-hidden="true"><path fill-rule="evenodd" d="M7.21 14.77a.75.75.0 01.02-1.06L11.168 10 7.23 6.29a.75.75.0 111.04-1.08l4.5 4.25a.75.75.0 010 1.08l-4.5 4.25a.75.75.0 01-1.06-.02z" clip-rule="evenodd"/></svg></span></a><p class="max-w-xl mx-auto mb-6 font-normal text-justify text-gray-900 lg:mx-0 xl:mb-2 md:text-lg xl:text-xl dark:text-gray-50">脑科学与类脑计算交叉研究中心 (center for <b>B</b>rain and <b>B</b>rain-<b>I</b>nspired <b>C</b>omputing research) 成立于2020年12月，是西北工业大学计算机学院发起成立的首批三个交叉研究中心之一。
-结合中国脑计划所提出的“一体两翼”的国家战略部署，以及科技创新2030“脑科学与类脑研究”重大项目，
-脑科学研究以脑认知原理为主体，以类脑计算与脑机智能、脑重大疾病诊治为两翼，搭建关键技术平台，
-面向世界科技前沿，服务创新型国家建设，对抢占脑科学前沿研究制高点和培养未来拔尖创新人才具有重要意义。</p></div><div class=col-span-6><img srcset="https://nwpu-bbic.github.io/images/pages/BBIC_hu6d875747ed79b5c7701b6cb000363806_53283_400x400_fill_q90_h2_box_smart1.webp 400w, https://nwpu-bbic.github.io/images/pages/BBIC_hu6d875747ed79b5c7701b6cb000363806_53283_576x576_fill_q90_h2_box_smart1.webp 576w" src=https://nwpu-bbic.github.io/images/pages/BBIC.jpg width=100% height alt="Introduction of NWPU BBIC" class="w-full max-w-xl mx-auto rounded-lg"></div></div></div></div><div class="relative my-4"><div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8"><div class="relative sm:py-8 lg:py-0"><div aria-hidden=true class="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen"><div class="absolute inset-y-0 w-full bg-gray-50 dark:bg-gray-900/10 right-1/2 rounded-r-3xl lg:right-72"></div><svg class="absolute -ml-3 top-8 left-1/2 lg:-right-8 lg:left-auto lg:top-12" width="404" height="392" fill="none" viewBox="0 0 404 392" loading="lazy"><defs><pattern id="02f20b47-fd69-4224-a62a-4c9de5c763f7" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><rect x="0" y="0" width="4" height="4" class="text-gray-200 dark:text-gray-900/60" fill="currentcolor"/></pattern></defs><rect width="404" height="392" fill="url(#02f20b47-fd69-4224-a62a-4c9de5c763f7)"/></svg></div><div class="relative max-w-md px-4 py-6 mx-auto sm:max-w-3xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20"><div class="relative pt-64 pb-10 overflow-hidden shadow-xl rounded-2xl"><img imgh src=https://nwpu-bbic.github.io/images/pages/intro_huebb09f3b689fff9db1936452ff5c9d3c_122187_800x641_resize_q50_h2_box_3.webp width=800 height=641 class="absolute inset-0 object-cover w-full h-full" alt="TailBliss - Our Mission" loading=lazy>
-><div class="absolute inset-0 bg-gradient-to-t from-indigo-600 opacity-80"></div><div class="relative px-8"><blockquote class=mt-8><div class="relative text-lg font-medium text-white md:flex-grow"><svg class="absolute top-0 left-0 w-8 h-8 transform -translate-x-3 -translate-y-2 text-indigo-400/30" fill="currentcolor" viewBox="0 0 32 32" aria-hidden="true"><path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36.0 5.856-2.688 5.856-5.856.0-3.168-2.208-5.472-5.088-5.472-.576.0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512.0c-4.8 3.456-8.256 9.12-8.256 15.36.0 5.088 3.072 8.064 6.624 8.064 3.264.0 5.856-2.688 5.856-5.856.0-3.168-2.304-5.472-5.184-5.472-.576.0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"/></svg><p class=mt-4>Brain & AI
-                            </p></div><footer class=mt-4><p class="text-base font-semibold text-gray-200">NWPU BBIC</p></footer></blockquote></div></div></div></div><div class="relative max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:px-0"><div class="md:pt-12 sm:pt-6 lg:pt-20"><h2 class="text-3xl font-bold tracking-tight text-gray-900 capitalize dark:text-gray-50 sm:text-4xl">研究方向</h2><div class="mt-6 space-y-6 text-gray-900 dark:text-white"><p class="text-lg text-justify leading-7">本中心面向脑科学与类脑计算前沿交叉领域，开展大脑工作机理探索、
-脑启发人工智能算法设计以及脑疾病诊治三个方面的基础研究，通过支持神经科学、认知科学、
-信息科学、智能科学、医学及社会科学的交叉研究，进一步促进强人工智能的发展，以期解决航空、
-航天、航海、生命健康等领域的重大需求。</p><p class="text-lg text-justify leading-7">主要研究方向包括：基于脑影像的大脑工作机理探索、大脑功能与结构的多模态分析、
-脑启发人工智能算法设计、脑电（EEG）信号分析与脑机接口、脑影像基因组学研究、计算机辅助诊断与治疗等。</p></div></div></div></div></div><div class="relative my-4"><div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8"><div class="relative max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:px-0"><div class="md:pt-12 sm:pt-6 lg:pt-20"><h2 class="text-3xl font-bold tracking-tight text-gray-900 capitalize dark:text-gray-50 sm:text-4xl">招生就业</h2><div class="mt-6 space-y-6 text-gray-900 dark:text-white"><p class="text-lg text-justify leading-7">实验室面向海内外诚聘高水平人才（准聘教授、副教授）、
-青年学者（博士后、访问学者、访问博士），此招聘长期有效。（感兴趣者请发简历至 shu.zhang@nwpu.edu.cn 谢谢！）</p><p class="text-lg text-justify leading-7">实验室招收博士、硕士研究生，招生方向为：医学图像处理（脑影像分析）、模式识别与机器学习。</p><p class="text-lg leading-7">实验室招收以下研究方向的博士后各 1-2 人： 1.多模态与多尺度的大脑功能结构联合分析。
-该研究方向致力于结合大脑功能图像与结构图像的信息，并通过分析大脑层次与动态特性的理解与分析，
-加深对大脑认知的理解。2.深度学习计算机辅助检测与诊断。在 CT 图像中，对肿瘤纹理进行特性提取，
-进而通过深度学习的算法，实现计算机辅助检测与诊断，提升诊断精度。</p><p class="text-lg leading-7">实验室招收研究生助管2人：负责脑科学与类脑计算交叉研究中心/实验室的科研/日常工作</p></div></div></div><div class="relative sm:py-8 lg:py-0"><div aria-hidden=true class="hidden sm:block lg:absolute lg:inset-y-0 lg:left-0 lg:w-screen"><div class="absolute inset-y-0 w-full bg-gray-50 dark:bg-gray-900/10 left-1/2 rounded-l-3xl lg:left-72"></div><svg class="absolute -ml-3 top-8 right-1/2 lg:-left-8 lg:right-auto lg:top-12" width="404" height="392" fill="none" viewBox="0 0 404 392" loading="lazy"><defs><pattern id="02f20b47-fd69-4224-a62a-4c9de5c763f7" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><rect x="0" y="0" width="4" height="4" class="text-gray-200 dark:text-gray-900/60" fill="currentcolor"/></pattern></defs><rect width="404" height="392" fill="url(#02f20b47-fd69-4224-a62a-4c9de5c763f7)"/></svg></div><div class="relative max-w-md px-4 py-6 mx-auto sm:max-w-3xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20"><div class="relative pt-64 pb-10 overflow-hidden shadow-xl rounded-2xl"><img imgh src=https://nwpu-bbic.github.io/images/pages/%E6%8B%9B%E7%94%9F%E5%B0%B1%E4%B8%9A_hu3f6de5169b5a04cd50085f23b837b336_41704_800x456_resize_q50_h2_box.webp width=800 height=456 class="absolute inset-0 object-cover w-full h-full" alt="TailBliss - Our Mission" loading=lazy>
-><div class="relative px-8"><blockquote class=mt-8><div class="relative text-lg font-medium text-white md:flex-grow"><p class=mt-4>&emsp;&emsp;</p></div><footer class=mt-4><p class="text-base font-semibold text-gray-200">&emsp;&emsp;</p></footer></blockquote></div></div></div></div></div></div><div class="relative my-4"><div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8"><div class="relative sm:py-8 lg:py-0"><div aria-hidden=true class="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen"><div class="absolute inset-y-0 w-full bg-gray-50 dark:bg-gray-900/10 right-1/2 rounded-r-3xl lg:right-72"></div><svg class="absolute -ml-3 top-8 left-1/2 lg:-right-8 lg:left-auto lg:top-12" width="404" height="392" fill="none" viewBox="0 0 404 392" loading="lazy"><defs><pattern id="02f20b47-fd69-4224-a62a-4c9de5c763f7" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><rect x="0" y="0" width="4" height="4" class="text-gray-200 dark:text-gray-900/60" fill="currentcolor"/></pattern></defs><rect width="404" height="392" fill="url(#02f20b47-fd69-4224-a62a-4c9de5c763f7)"/></svg></div><div class="relative max-w-md px-4 py-6 mx-auto sm:max-w-3xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20"><div class="relative pt-64 pb-10 overflow-hidden shadow-xl rounded-2xl"><img imgh src=https://nwpu-bbic.github.io/images/pages/partner_hue8503b6e63e36b3d0e62867b69872050_303777_800x600_resize_q50_h2_box_3.webp width=800 height=600 class="absolute inset-0 object-cover w-full h-full" alt="TailBliss - Our Mission" loading=lazy>
-><div class="relative px-8"><blockquote class=mt-8><div class="relative text-lg font-medium text-white md:flex-grow"><svg class="absolute top-0 left-0 w-8 h-8 transform -translate-x-3 -translate-y-2 text-indigo-400/30" fill="currentcolor" viewBox="0 0 32 32" aria-hidden="true"><path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36.0 5.856-2.688 5.856-5.856.0-3.168-2.208-5.472-5.088-5.472-.576.0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512.0c-4.8 3.456-8.256 9.12-8.256 15.36.0 5.088 3.072 8.064 6.624 8.064 3.264.0 5.856-2.688 5.856-5.856.0-3.168-2.304-5.472-5.184-5.472-.576.0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"/></svg><p class=mt-4>Brain & Partners
-                      </p></div><footer class=mt-4><p class="text-base font-semibold text-gray-200">NWPU BBIC</p></footer></blockquote></div></div></div></div><div class="relative max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:px-0"><div class="md:pt-12 sm:pt-6 lg:pt-20"><h2 class="text-3xl font-bold tracking-tight text-gray-900 capitalize dark:text-gray-50 sm:text-4xl">合作伙伴</h2><div class="mt-6 space-y-6 text-gray-900 dark:text-white"><p class="text-lg text-justify leading-7">本中心与多个团队达成了一定合作，主要包括以下单位：</p><p class="text-lg text-justify leading-7">CAMCA MASSACHUSETTS GENERAL HOSPITAI、<br>MAYO CLINIC Comprehensive Cancer Center、<br>华南理工生物医学信息学实验室、<br>LEHIGH COMPUTER SCIENCE & ENGINEERING、<br>RISE LAB (REASONING AND KNOWLEDGE DSCOVERY LAB)、<br>SCHOOL OF DATA SCIENCE(UNIVERSITY VIRGINIA)、<br>Research Lab IDEA、<br>School of Computing UNIVERSITY OF GEORGIA、<br>CAID(Cortical Architecture lmaging and Discovery Laboratory)、<br>UTA COMPUTER SCIENCE AND ENGINEERING DEPARTMENT、<br>MIND(Medical Imaging And Neuroscientific Discovery Laboratory),<br>......</p></div></div></div></div></div><div class="relative px-1 pt-8 pb-4 bg-transparent lg:px-8 lg:pt-12 lg:mb-4 md:mt-12"><div class="absolute inset-0"><div class="bg-gray-200 dark:bg-gray-900/50 h-1/3 sm:h-2/3"></div></div><div class="relative px-2 mx-auto max-w-7xl"><div class=text-center><h2 class="text-3xl font-black tracking-tight text-indigo-500 capitalize dark:text-indigo-300 sm:text-4xl">最新消息</h2></div><div class="mx-auto text-gray-900 max-w-7xl dark:text-gray-50 md:px-1.5"><div class="px-4 text-gray-900 dark:text-white not-prose dark:text-zinc-200"><div class="grid gap-4 mx-auto mt-12 mb-4 lg:max-w-none md:grid-cols-3"><div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-gray-50 dark:bg-gray-900"><a href=https://nwpu-bbic.github.io/news/%E5%9B%A2%E9%98%9F%E8%A6%81%E9%97%BB/td_0026/><img src=https://nwpu-bbic.github.io/../assets/images/featured/%E5%9B%A2%E9%98%9F%E8%A6%81%E9%97%BB/TD_0026_huef2e9db8f3e6c05b7707863683767347_629217_500x0_resize_q90_h2_box.webp class="object-fill overflow-hidden rounded-t-lg" width=100% height loading=lazy alt=../assets/images/featured/团队要闻/TD_0026.jpg></a><div class=p-6><div class=flex-1><a href=https://nwpu-bbic.github.io/news/%E5%9B%A2%E9%98%9F%E8%A6%81%E9%97%BB/td_0026/ class="block mt-2 text-2xl font-black text-gray-900 dark:text-gray-200 hover:text-indigo-600 dark:hover:text-indigo-500 hover:underline">赴厦门参加第五届计算机科学与管理科技国际学术会议（ICCSMT 2024）</a><p class="mt-3 text-base text-gray-900 dark:text-gray-300">本团队成员朱迪于10月18日至10月19日赴厦门参加第五届计算机科学与管理科技国际学术会议（ICCSMT 2024）</p></div><div class="flex pt-6 font-medium text-indigo-600 dark:text-indigo-100 text-md"><span class="pr-2 font-black">Tags:</span>
-<a href=https://nwpu-bbic.github.io/tags/%E5%9B%A2%E9%98%9F%E8%A6%81%E9%97%BB/ class="inline-flex items-center rounded-md bg-gray-300 hover:bg-indigo-200 hover:text-black px-2.5 py-0.5 text-sm font-medium text-gray-900 capitalize">团队要闻</a></div><div class="flex items-center mt-6"><div class=flex-shrink-0><span class=sr-only>NWPU-BBIC</span>
-<img class="w-10 h-10 rounded-full" src=https://nwpu-bbic.github.io/../assets/images/global/favicon-32x32_hu59a12c3acfa3f65c89cb8690a817ca34_42374_400x0_resize_q75_h2_box_3.webp alt></div><div class="pt-1 ml-3"><p class="text-sm font-medium text-gray-900 dark:text-white">NWPU-BBIC</p><div class="flex space-x-1 text-sm text-gray-500 dark:text-white"><time datetime=2020-02-12>2024-10-18</time>
-<span aria-hidden=true>&#183;</span>
-<span>1 min read</span></div></div></div></div></div><div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-gray-50 dark:bg-gray-900"><a href=https://nwpu-bbic.github.io/news/%E8%84%91%E6%9C%BA%E6%8E%A5%E5%8F%A3%E4%B8%8E%E6%99%BA%E8%83%BD%E6%9C%BA%E5%99%A8%E4%BA%BA/paper_0018_wxh/><img src=https://nwpu-bbic.github.io/../assets/images/featured/paper_images/paper_0018_%E5%9B%BE1_hu41bd7dccd01f1f3bc548c5ffcc1de96c_89181127_500x0_resize_q90_h2_box_3.webp class="object-fill overflow-hidden rounded-t-lg" width=100% height loading=lazy alt=../assets/images/featured/paper_images/paper_0018_图1.png></a><div class=p-6><div class=flex-1><a href=https://nwpu-bbic.github.io/news/%E8%84%91%E6%9C%BA%E6%8E%A5%E5%8F%A3%E4%B8%8E%E6%99%BA%E8%83%BD%E6%9C%BA%E5%99%A8%E4%BA%BA/paper_0018_wxh/ class="block mt-2 text-2xl font-black text-gray-900 dark:text-gray-200 hover:text-indigo-600 dark:hover:text-indigo-500 hover:underline">会议BIBM accept 论文：ST-GF：用于脑电图运动成像解码的基于图的时空特征融合网络</a><p class="mt-3 text-base text-gray-900 dark:text-gray-300">论文“ST-GF:Graph-based Fusion of Spatial and Temporal Features for EEG Motor Imagery Decoding”被会议BIBM2024接收</p></div><div class="flex pt-6 font-medium text-indigo-600 dark:text-indigo-100 text-md"><span class="pr-2 font-black">Tags:</span>
-<a href=https://nwpu-bbic.github.io/tags/%E8%84%91%E6%9C%BA%E6%8E%A5%E5%8F%A3%E4%B8%8E%E6%99%BA%E8%83%BD%E6%9C%BA%E5%99%A8%E4%BA%BA/ class="inline-flex items-center rounded-md bg-gray-300 hover:bg-indigo-200 hover:text-black px-2.5 py-0.5 text-sm font-medium text-gray-900 capitalize">脑机接口与智能机器人</a></div><div class="flex items-center mt-6"><div class=flex-shrink-0><span class=sr-only>王旭辉</span>
-<img class="w-10 h-10 rounded-full" src=https://nwpu-bbic.github.io/../assets/images/global/favicon-32x32_hu59a12c3acfa3f65c89cb8690a817ca34_42374_400x0_resize_q75_h2_box_3.webp alt></div><div class="pt-1 ml-3"><p class="text-sm font-medium text-gray-900 dark:text-white">王旭辉</p><div class="flex space-x-1 text-sm text-gray-500 dark:text-white"><time datetime=2020-02-12>2024-10-14</time>
-<span aria-hidden=true>&#183;</span>
-<span>2 min read</span></div></div></div></div></div><div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-gray-50 dark:bg-gray-900"><a href=https://nwpu-bbic.github.io/news/%E5%9B%A2%E9%98%9F%E8%A6%81%E9%97%BB/td_0025/><img src=https://nwpu-bbic.github.io/../assets/images/featured/%E5%9B%A2%E9%98%9F%E8%A6%81%E9%97%BB/TD_0025_hu063bb5a33cadd16f2239e4e6c8b6560e_712987_500x0_resize_q90_h2_box_3.webp class="object-fill overflow-hidden rounded-t-lg" width=100% height loading=lazy alt=../assets/images/featured/团队要闻/TD_0025.png></a><div class=p-6><div class=flex-1><a href=https://nwpu-bbic.github.io/news/%E5%9B%A2%E9%98%9F%E8%A6%81%E9%97%BB/td_0025/ class="block mt-2 text-2xl font-black text-gray-900 dark:text-gray-200 hover:text-indigo-600 dark:hover:text-indigo-500 hover:underline">赴广州参加RLChina 2024 大会</a><p class="mt-3 text-base text-gray-900 dark:text-gray-300">本团队成员胡华文于10月12日至10月18日赴广州参加RLChina 2024 大会</p></div><div class="flex pt-6 font-medium text-indigo-600 dark:text-indigo-100 text-md"><span class="pr-2 font-black">Tags:</span>
-<a href=https://nwpu-bbic.github.io/tags/%E5%9B%A2%E9%98%9F%E8%A6%81%E9%97%BB/ class="inline-flex items-center rounded-md bg-gray-300 hover:bg-indigo-200 hover:text-black px-2.5 py-0.5 text-sm font-medium text-gray-900 capitalize">团队要闻</a></div><div class="flex items-center mt-6"><div class=flex-shrink-0><span class=sr-only>NWPU-BBIC</span>
-<img class="w-10 h-10 rounded-full" src=https://nwpu-bbic.github.io/../assets/images/global/favicon-32x32_hu59a12c3acfa3f65c89cb8690a817ca34_42374_400x0_resize_q75_h2_box_3.webp alt></div><div class="pt-1 ml-3"><p class="text-sm font-medium text-gray-900 dark:text-white">NWPU-BBIC</p><div class="flex space-x-1 text-sm text-gray-500 dark:text-white"><time datetime=2020-02-12>2024-10-12</time>
-<span aria-hidden=true>&#183;</span>
-<span>1 min read</span></div></div></div></div></div></div></div></div></div></div></main><script src=https://nwpu-bbic.github.io/js/alpine.js defer></script>
-<script src=https://nwpu-bbic.github.io/js/darkmode.js defer></script><footer class=bg-gray-900><div class="max-w-md px-4 py-6 mx-auto overflow-hidden sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8"><nav class="flex flex-wrap justify-center -mx-5 -my-2" aria-label=Footer><div class="px-5 py-2"><a href=https://nwpu-bbic.github.io/ class="text-base text-gray-400 hover:text-gray-300">Home</a></div><div class="px-5 py-2"><a href=https://nwpu-bbic.github.io/about class="text-base text-gray-400 hover:text-gray-300">About</a></div><div class="px-5 py-2"><a href=https://nwpu-bbic.github.io/member/ class="text-base text-gray-400 hover:text-gray-300">Member</a></div><div class="px-5 py-2"><a href=https://nwpu-bbic.github.io/news/ class="text-base text-gray-400 hover:text-gray-300">News</a></div><div class="px-5 py-2"><a href=https://nwpu-bbic.github.io/join_us/ class="text-base text-gray-400 hover:text-gray-300">Join us</a></div></nav><div class="flex justify-center mt-0 space-x-0"></div><p class="mt-8 text-base text-center text-gray-400">&copy; 2024
-NWPU BBIC. All rights
-reserved.</p></div></footer></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="generator" content="Hugo 0.110.0">
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="https://nwpu-bbic.github.io/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://nwpu-bbic.github.io/favicon/favicon-32x32.png">
+
+<link rel="manifest" href="https://nwpu-bbic.github.io/favicon/site.webmanifest">
+<link rel="mask-icon" href="https://nwpu-bbic.github.io/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<title itemprop="name"> 脑科学与类脑计算交叉研究中心 | NWPU BBIC
+    
+</title>
+<meta name="description" content="脑科学与类脑计算交叉研究中心" />
+<meta property="og:title" content="NWPU BBIC | NWPU BBIC" />
+<meta name="twitter:title" content="NWPU BBIC | NWPU BBIC" />
+<meta itemprop="name" content="NWPU BBIC | NWPU BBIC" />
+<meta name="application-name" content="NWPU BBIC | NWPU BBIC" />
+<meta property="og:site_name" content="NWPU BBIC" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="NWPU BBIC" />
+<meta property="og:description"
+      content="脑科学与类脑计算交叉研究中心" />
+<meta property="og:site_name" content="NWPU BBIC" />
+<meta property="og:url" content="https://nwpu-bbic.github.io/" />
+<meta property="og:locale" content="en">
+
+<meta property="og:image" content="/images/tailbliss-cover.png" />
+<meta property="og:image:secure_url" content="https://nwpu-bbic.github.io/images/tailbliss-cover.png" />
+
+<meta property="og:type" content="website" />
+<script>
+    
+    if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+    } else {
+        document.documentElement.classList.remove('dark')
+    }
+</script>
+
+
+
+<link rel="stylesheet" href="/css/style.min.81eb063726da857c93ed926a3d1979dd1feb3c834c502453253d974ff6b5db3a.css" integrity="sha256-gesGNybahXyT7ZJqPRl53R/rPINMUCRTJT2XT/a12zo=" />
+
+</head>
+
+<body class="bg-zinc-100 dark:bg-gray-800">
+    <div class="top-0 z-50 w-full text-gray-200 bg-gray-900 border-2 border-gray-900 md:sticky border-b-stone-200/10">
+    <div x-data="{ open: false }"
+         class="flex flex-col max-w-full px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
+        <div class="flex flex-row items-center justify-between p-4">
+            <a href="https://nwpu-bbic.github.io/" class="flex text-gray-100 transition duration-1000 ease-in-out group">
+                <img src="https://nwpu-bbic.github.io/images/logo.svg"
+                     class="transition-opacity h-9 w-9 group-hover:opacity-50 group-focus:opacity-70"
+                     alt="NWPU BBIC Logo" />
+                <div
+                     class="mt-1 ml-3 text-xl font-black tracking-tight text-gray-100 uppercase transition-colors group-hover:text-gray-400/60">
+                    NWPU BBIC</div>
+            </a>
+            <button class="rounded-lg md:hidden focus:outline-none focus:shadow-outline" @click="open = !open" role="navigation" aria-expanded="false" aria-label="Main" aria-controls="menuItems">
+                <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+                    <path x-show="!open" fill-rule="evenodd"
+                          d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                          clip-rule="evenodd"></path>
+                    <path x-show="open" fill-rule="evenodd"
+                          d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                          clip-rule="evenodd"></path>
+                </svg>
+            </button>
+        </div>
+        <nav :class="{'flex': open, 'hidden': !open}"
+             class="flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
+            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none focus:shadow-outline"
+             href="https://nwpu-bbic.github.io/">首页</a>
+            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none focus:shadow-outline"
+                href="https://nwpu-bbic.github.io/about/">团队概况</a>
+            
+            <div @click.away="open = false" class="relative" x-data="{ open: false }">
+                    <button @click="open = !open"
+                            class="flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-600 focus:outline-none focus:shadow-outline">
+                        <span>团队成员</span>
+                        <svg fill="currentColor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}"
+                                class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1">
+                            <path fill-rule="evenodd"
+                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                    clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-100"
+                            x-transition:enter-start="transform opacity-0 scale-95"
+                            x-transition:enter-end="transform opacity-100 scale-100"
+                            x-transition:leave="transition ease-in duration-75"
+                            x-transition:leave-start="transform opacity-100 scale-100"
+                            x-transition:leave-end="transform opacity-0 scale-95"
+                            class="absolute right-0 z-30 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48">
+                        <div class="px-2 py-2 text-indigo-900 bg-white rounded-md shadow">
+                            <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-600 focus:outline-none focus:shadow-outline"
+                                href="https://nwpu-bbic.github.io/member/">成员一览</a>
+                            <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none focus:shadow-outline"
+                                href="https://nwpu-bbic.github.io/member2/">毕业去向</a>
+                                
+                        </div>
+                    </div>
+            </div>
+            <div @click.away="open = false" class="relative" x-data="{ open: false }">
+                <button @click="open = !open"
+                        class="flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-600 focus:outline-none focus:shadow-outline">
+                    <span>成果展示</span>
+                    <svg fill="currentColor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}"
+                            class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1">
+                        <path fill-rule="evenodd"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+                <div x-show="open" x-transition:enter="transition ease-out duration-100"
+                        x-transition:enter-start="transform opacity-0 scale-95"
+                        x-transition:enter-end="transform opacity-100 scale-100"
+                        x-transition:leave="transition ease-in duration-75"
+                        x-transition:leave-start="transform opacity-100 scale-100"
+                        x-transition:leave-end="transform opacity-0 scale-95"
+                        class="absolute right-0 z-30 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48">
+                    <div class="px-2 py-2 text-indigo-900 bg-white rounded-md shadow">
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-600 focus:outline-none focus:shadow-outline"
+                            href="https://nwpu-bbic.github.io/timeline/">论文汇总</a>
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none focus:shadow-outline"
+                            href="https://nwpu-bbic.github.io/timeline2/">项目成果展示</a>
+                            
+                    </div>
+                </div>
+            </div>
+
+            <div @click.away="open = false" class="relative" x-data="{ open: false }">
+                <button @click="open = !open"
+                        class="flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-600 focus:outline-none focus:shadow-outline">
+                    <span>团队新闻</span>
+                    <svg fill="currentColor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}"
+                         class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1">
+                        <path fill-rule="evenodd"
+                              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                              clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+                <div x-show="open" x-transition:enter="transition ease-out duration-100"
+                     x-transition:enter-start="transform opacity-0 scale-95"
+                     x-transition:enter-end="transform opacity-100 scale-100"
+                     x-transition:leave="transition ease-in duration-75"
+                     x-transition:leave-start="transform opacity-100 scale-100"
+                     x-transition:leave-end="transform opacity-0 scale-95"
+                     class="absolute right-0 z-30 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48">
+                    <div class="px-2 py-2 text-indigo-900 bg-white rounded-md shadow">
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-600 focus:outline-none focus:shadow-outline"
+                           href="https://nwpu-bbic.github.io/news/">全部</a>
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none focus:shadow-outline"
+                           href="https://nwpu-bbic.github.io/tags/团队要闻/">团队要闻</a>
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-600 focus:outline-none focus:shadow-outline"
+                           href="https://nwpu-bbic.github.io/tags/脑影像人工智能/">脑影像人工智能</a>
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none focus:shadow-outline"
+                           href="https://nwpu-bbic.github.io/tags/脑机接口与智能机器人/">脑机接口与智能机器人</a>
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none focus:shadow-outline"
+                           href="https://nwpu-bbic.github.io/tags/计算机辅助诊断/">计算机辅助诊断</a>
+                    </div>
+                </div>
+            </div>
+            
+            <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none focus:shadow-outline"
+               href="https://nwpu-bbic.github.io/join_us">
+                加入我们
+            </a>
+            <button id="theme-toggle" type="button"
+                    class="p-2 text-sm text-gray-500 rounded-lg md: dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 md:ml-2 max-w-5 xs:hidden">
+                <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z">
+                    </path>
+                </svg>
+                <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                     aria-label="Dark or Light Mode" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                          fill-rule="evenodd" clip-rule="evenodd"></path>
+                </svg>
+            </button>
+        </nav>
+    </div>
+</div>
+    
+<main>
+    <div class="bg-gray-200 dark:bg-gray-900">
+        <div class="max-w-screen-xl px-4 py-8 mx-auto">
+            <div class="grid items-center gap-8 mb-8 sm:mb-0 lg:gap-12 lg:grid-cols-12">
+                <div class="col-span-6 px-4 text-center sm:mb-6 lg:text-left lg:mb-0">
+                    <h1
+                        class="mb-2 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl xl:text-6xl dark:text-white">
+                        NWPU BBIC</h1>
+                    <h2 class="pb-2 text-3xl font-light text-gray-800 dark:text-gray-300 md:text-4xl">
+                        脑科学与类脑计算交叉研究中心
+                    </h2>
+                    <a href="news/"
+                       class="block py-4 mx-auto space-x-4 sm:inline-flex md:inline-flex sm:text-center sm:block">
+                        <span
+                              class="rounded bg-gray-50 px-2.5 py-1 text-sm font-bold text-gray-900 block max-w-fit mx-auto md:min-w-fit mb-2">
+                            What's new
+                        </span>
+                        <span
+                              class="inline-flex items-center mb-2 space-x-1 text-sm font-medium text-gray-800 dark:text-white md:min-w-fit">
+                            <span>最新消息</span>
+                            
+                            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                                 fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                      d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                      clip-rule="evenodd" />
+                            </svg>
+                        </span>
+                    </a>
+                    <p
+                       class="max-w-xl mx-auto mb-6 font-normal text-justify text-gray-900 lg:mx-0 xl:mb-2 md:text-lg xl:text-xl dark:text-gray-50">
+                       脑科学与类脑计算交叉研究中心 (center for <b>B</b>rain and <b>B</b>rain-<b>I</b>nspired <b>C</b>omputing research) 成立于2020年12月，是西北工业大学计算机学院发起成立的首批三个交叉研究中心之一。
+                       结合中国脑计划所提出的“一体两翼”的国家战略部署，以及科技创新2030“脑科学与类脑研究”重大项目，
+                       脑科学研究以脑认知原理为主体，以类脑计算与脑机智能、脑重大疾病诊治为两翼，搭建关键技术平台，
+                       面向世界科技前沿，服务创新型国家建设，对抢占脑科学前沿研究制高点和培养未来拔尖创新人才具有重要意义。</p>
+                </div>
+                <div class="col-span-6">
+                    
+
+                    
+                    
+
+                    <img srcset="https://nwpu-bbic.github.io/images/pages/BBIC_hu6d875747ed79b5c7701b6cb000363806_53283_400x400_fill_q90_h2_box_smart1.webp 400w, https://nwpu-bbic.github.io/images/pages/BBIC_hu6d875747ed79b5c7701b6cb000363806_53283_576x576_fill_q90_h2_box_smart1.webp 576w" src="https://nwpu-bbic.github.io/images/pages/BBIC.jpg"
+                         width="100%" height="" alt="Introduction of NWPU BBIC" class="w-full max-w-xl mx-auto rounded-lg" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+     
+    <div class="relative my-4">
+        <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
+            <div class="relative sm:py-8 lg:py-0">
+                <div aria-hidden="true" class="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen">
+                    <div
+                         class="absolute inset-y-0 w-full bg-gray-50 dark:bg-gray-900/10 right-1/2 rounded-r-3xl lg:right-72">
+                    </div>
+                    <svg class="absolute -ml-3 top-8 left-1/2 lg:-right-8 lg:left-auto lg:top-12" width="404"
+                         height="392" fill="none" viewBox="0 0 404 392" loading="lazy">
+                        <defs>
+                            <pattern id="02f20b47-fd69-4224-a62a-4c9de5c763f7" x="0" y="0" width="20" height="20"
+                                     patternUnits="userSpaceOnUse">
+                                <rect x="0" y="0" width="4" height="4" class="text-gray-200 dark:text-gray-900/60"
+                                      fill="currentColor" />
+                            </pattern>
+                        </defs>
+                        <rect width="404" height="392" fill="url(#02f20b47-fd69-4224-a62a-4c9de5c763f7)" />
+                    </svg>
+                </div>
+                <div class="relative max-w-md px-4 py-6 mx-auto sm:max-w-3xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20">
+                    
+                    <div class="relative pt-64 pb-10 overflow-hidden shadow-xl rounded-2xl">
+                        
+                        
+                        
+                        <img imgh src="https://nwpu-bbic.github.io/images/pages/intro_huebb09f3b689fff9db1936452ff5c9d3c_122187_800x641_resize_q50_h2_box_3.webp" width="800" height="641"
+                             class="absolute inset-0 object-cover w-full h-full" alt="TailBliss - Our Mission"
+                             loading="lazy" />
+                        >
+                        
+                        
+                        <div class="absolute inset-0 bg-gradient-to-t from-indigo-600 opacity-80">
+                        </div>
+                        <div class="relative px-8">
+                            
+                            <blockquote class="mt-8">
+                                <div class="relative text-lg font-medium text-white md:flex-grow">
+                                    <svg class="absolute top-0 left-0 w-8 h-8 transform -translate-x-3 -translate-y-2 text-indigo-400/30"
+                                         fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
+                                        <path
+                                              d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+                                    </svg>
+                                    
+                                    <p class="mt-4" >Brain & AI
+                                    </p>
+                                </div>
+
+                                <footer class="mt-4">
+                                    <p class="text-base font-semibold text-gray-200">
+                                        NWPU BBIC
+                                    </p>
+                                </footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="relative max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:px-0">
+                
+                <div class="md:pt-12 sm:pt-6 lg:pt-20">
+                    <h2
+                        class="text-3xl font-bold tracking-tight text-gray-900 capitalize dark:text-gray-50 sm:text-4xl">
+                        研究方向</h2>
+                    <div class="mt-6 space-y-6 text-gray-900 dark:text-white">
+                        <p class="text-lg text-justify leading-7">本中心面向脑科学与类脑计算前沿交叉领域，开展大脑工作机理探索、
+                            脑启发人工智能算法设计以及脑疾病诊治三个方面的基础研究，通过支持神经科学、认知科学、
+                            信息科学、智能科学、医学及社会科学的交叉研究，进一步促进强人工智能的发展，以期解决航空、
+                            航天、航海、生命健康等领域的重大需求。
+                        </p>
+                        <p class="text-lg text-justify leading-7">
+                            主要研究方向包括：基于脑影像的大脑工作机理探索、大脑功能与结构的多模态分析、
+                            脑启发人工智能算法设计、脑电（EEG）信号分析与脑机接口、脑影像基因组学研究、计算机辅助诊断与治疗等。
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    
+    <div class="relative my-4">
+        <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
+
+            <div class="relative max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:px-0">
+                
+                <div class="md:pt-12 sm:pt-6 lg:pt-20">
+                    <h2
+                        class="text-3xl font-bold tracking-tight text-gray-900 capitalize dark:text-gray-50 sm:text-4xl">
+                        招生就业</h2>
+                    <div class="mt-6 space-y-6 text-gray-900 dark:text-white">
+                        <p class="text-lg text-justify leading-7">实验室面向海内外诚聘高水平人才（准聘教授、副教授）、
+                            青年学者（博士后、访问学者、访问博士），此招聘长期有效。（感兴趣者请发简历至 shu.zhang@nwpu.edu.cn 谢谢！）
+                        </p>
+                        <p class="text-lg text-justify leading-7">
+                            实验室招收博士、硕士研究生，招生方向为：医学图像处理（脑影像分析）、模式识别与机器学习。 
+                        </p>
+                        <p class="text-lg leading-7">
+                            实验室招收以下研究方向的博士后各 1-2 人： 1.多模态与多尺度的大脑功能结构联合分析。
+                            该研究方向致力于结合大脑功能图像与结构图像的信息，并通过分析大脑层次与动态特性的理解与分析，
+                            加深对大脑认知的理解。2.深度学习计算机辅助检测与诊断。在 CT 图像中，对肿瘤纹理进行特性提取，
+                            进而通过深度学习的算法，实现计算机辅助检测与诊断，提升诊断精度。
+                        </p>
+                        <p class="text-lg leading-7">
+                            实验室招收研究生助管2人：负责脑科学与类脑计算交叉研究中心/实验室的科研/日常工作
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="relative sm:py-8 lg:py-0">
+                <div aria-hidden="true" class="hidden sm:block lg:absolute lg:inset-y-0 lg:left-0 lg:w-screen">
+                    <div
+                         class="absolute inset-y-0 w-full bg-gray-50 dark:bg-gray-900/10 left-1/2 rounded-l-3xl lg:left-72">
+                    </div>
+                    <svg class="absolute -ml-3 top-8 right-1/2 lg:-left-8 lg:right-auto lg:top-12" width="404"
+                         height="392" fill="none" viewBox="0 0 404 392" loading="lazy">
+                        <defs>
+                            <pattern id="02f20b47-fd69-4224-a62a-4c9de5c763f7" x="0" y="0" width="20" height="20"
+                                     patternUnits="userSpaceOnUse">
+                                <rect x="0" y="0" width="4" height="4" class="text-gray-200 dark:text-gray-900/60"
+                                      fill="currentColor" />
+                            </pattern>
+                        </defs>
+                        <rect width="404" height="392" fill="url(#02f20b47-fd69-4224-a62a-4c9de5c763f7)" />
+                    </svg>
+                </div>
+                <div class="relative max-w-md px-4 py-6 mx-auto sm:max-w-3xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20">
+                    
+                    <div class="relative pt-64 pb-10 overflow-hidden shadow-xl rounded-2xl">
+                        
+                        
+                        
+                        <img imgh src="https://nwpu-bbic.github.io/images/pages/%E6%8B%9B%E7%94%9F%E5%B0%B1%E4%B8%9A_hu3f6de5169b5a04cd50085f23b837b336_41704_800x456_resize_q50_h2_box.webp" width="800" height="456"
+                             class="absolute inset-0 object-cover w-full h-full" alt="TailBliss - Our Mission"
+                             loading="lazy" />
+                        >
+                        
+                         
+                        
+                        <div class="relative px-8">
+                            
+                            <blockquote class="mt-8">
+                                    <div class="relative text-lg font-medium text-white md:flex-grow">
+                                    
+                                    
+                                    
+                                    <p class="mt-4" >
+                                        &emsp;&emsp;
+                                    </p>
+                                </div>
+
+                                <footer class="mt-4">
+                                    <p class="text-base font-semibold text-gray-200">
+                                        &emsp;&emsp;
+                                    </p>
+                                </footer>
+                            </blockquote>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    
+    <div class="relative my-4">
+        <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
+            <div class="relative sm:py-8 lg:py-0">
+                <div aria-hidden="true" class="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen">
+                    <div
+                         class="absolute inset-y-0 w-full bg-gray-50 dark:bg-gray-900/10 right-1/2 rounded-r-3xl lg:right-72">
+                    </div>
+                    <svg class="absolute -ml-3 top-8 left-1/2 lg:-right-8 lg:left-auto lg:top-12" width="404"
+                         height="392" fill="none" viewBox="0 0 404 392" loading="lazy">
+                        <defs>
+                            <pattern id="02f20b47-fd69-4224-a62a-4c9de5c763f7" x="0" y="0" width="20" height="20"
+                                     patternUnits="userSpaceOnUse">
+                                <rect x="0" y="0" width="4" height="4" class="text-gray-200 dark:text-gray-900/60"
+                                      fill="currentColor" />
+                            </pattern>
+                        </defs>
+                        <rect width="404" height="392" fill="url(#02f20b47-fd69-4224-a62a-4c9de5c763f7)" />
+                    </svg>
+                </div>
+                <div class="relative max-w-md px-4 py-6 mx-auto sm:max-w-3xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20">
+                    
+                    <div class="relative pt-64 pb-10 overflow-hidden shadow-xl rounded-2xl">
+                        
+                        
+                        
+                        <img imgh src="https://nwpu-bbic.github.io/images/pages/partner_hue8503b6e63e36b3d0e62867b69872050_303777_800x600_resize_q50_h2_box_3.webp" width="800" height="600"
+                             class="absolute inset-0 object-cover w-full h-full" alt="TailBliss - Our Mission"
+                             loading="lazy" />
+                        >
+                        
+                        
+                        <div class="relative px-8">
+                            
+                            <blockquote class="mt-8">
+                                <div class="relative text-lg font-medium text-white md:flex-grow">
+                                    
+                                    <svg class="absolute top-0 left-0 w-8 h-8 transform -translate-x-3 -translate-y-2 text-indigo-400/30"
+                                         fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
+                                        <path
+                                              d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+                                    </svg>
+                                    
+                                    <p class="mt-4" >Brain & Partners
+                                    </p>
+                                </div>
+
+                                <footer class="mt-4">
+                                    <p class="text-base font-semibold text-gray-200">
+                                        NWPU BBIC
+                                    </p>
+                                </footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="relative max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:px-0">
+                
+                <div class="md:pt-12 sm:pt-6 lg:pt-20">
+                    <h2
+                        class="text-3xl font-bold tracking-tight text-gray-900 capitalize dark:text-gray-50 sm:text-4xl">
+                        合作伙伴</h2>
+                    <div class="mt-6 space-y-6 text-gray-900 dark:text-white">
+                        <p class="text-lg text-justify leading-7">本中心与多个团队达成了一定合作，主要包括以下单位：
+                        </p>
+                        <p class="text-lg text-justify leading-7">
+                            CAMCA MASSACHUSETTS GENERAL HOSPITAI、<br>
+                            MAYO CLINIC Comprehensive Cancer Center、<br>
+                            华南理工生物医学信息学实验室、<br>
+                            LEHIGH COMPUTER SCIENCE & ENGINEERING、<br>
+                            RISE LAB (REASONING AND KNOWLEDGE DSCOVERY LAB)、<br>
+                            SCHOOL OF DATA SCIENCE(UNIVERSITY VIRGINIA)、<br>
+                            Research Lab IDEA、<br>
+                            School of Computing UNIVERSITY OF GEORGIA、<br>
+                            CAID(Cortical Architecture lmaging and Discovery Laboratory)、<br>
+                            UTA COMPUTER SCIENCE AND ENGINEERING DEPARTMENT、<br>
+                            MIND(Medical Imaging And Neuroscientific Discovery Laboratory),<br>
+                            ......
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    
+
+    
+    
+
+    <div class="relative px-1 pt-8 pb-4 bg-transparent lg:px-8 lg:pt-12 lg:mb-4 md:mt-12">
+        <div class="absolute inset-0">
+            <div class="bg-gray-200 dark:bg-gray-900/50 h-1/3 sm:h-2/3"></div>
+        </div>
+        <div class="relative px-2 mx-auto max-w-7xl">
+            <div class="text-center">
+                <h2 class="text-3xl font-black tracking-tight text-indigo-500 capitalize dark:text-indigo-300 sm:text-4xl">
+                    最新消息
+                </h2>
+            </div>
+    
+            <div class="mx-auto text-gray-900 max-w-7xl dark:text-gray-50 md:px-1.5">
+                <div class="px-4 text-gray-900 dark:text-white not-prose dark:text-zinc-200">
+                    <div class="grid gap-4 mx-auto mt-12 mb-4 lg:max-w-none md:grid-cols-3">
+                        
+                        
+                            
+                                <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-gray-50 dark:bg-gray-900">
+                                    <a href="https://nwpu-bbic.github.io/news/%E5%9B%A2%E9%98%9F%E8%A6%81%E9%97%BB/td_0026/">
+                                        
+                                            
+                                                
+                                                <img src="https://nwpu-bbic.github.io/../assets/images/featured/%E5%9B%A2%E9%98%9F%E8%A6%81%E9%97%BB/TD_0026_huef2e9db8f3e6c05b7707863683767347_629217_500x0_resize_q90_h2_box.webp" class="object-fill overflow-hidden rounded-t-lg"
+                                                     width="100%" height="" loading="lazy" alt="../assets/images/featured/团队要闻/TD_0026.jpg" />
+                                            
+                                        
+                                    </a>
+                                    <div class="p-6">
+                                        <div class="flex-1">
+                                            <a href="https://nwpu-bbic.github.io/news/%E5%9B%A2%E9%98%9F%E8%A6%81%E9%97%BB/td_0026/"
+                                               class="block mt-2 text-2xl font-black text-gray-900 dark:text-gray-200 hover:text-indigo-600 dark:hover:text-indigo-500 hover:underline">
+                                                赴厦门参加第五届计算机科学与管理科技国际学术会议（ICCSMT 2024）
+                                            </a>
+                                            <p class="mt-3 text-base text-gray-900 dark:text-gray-300">
+                                                本团队成员朱迪于10月18日至10月19日赴厦门参加第五届计算机科学与管理科技国际学术会议（ICCSMT 2024）
+                                            </p>
+                                        </div>
+                                        <div class="flex pt-6 font-medium text-indigo-600 dark:text-indigo-100 text-md">
+                                            <span class="pr-2 font-black">Tags:</span>
+                                            <a href="https://nwpu-bbic.github.io/tags/%E5%9B%A2%E9%98%9F%E8%A6%81%E9%97%BB/"
+                                                   class="inline-flex items-center rounded-md bg-gray-300 hover:bg-indigo-200 hover:text-black px-2.5 py-0.5 text-sm font-medium text-gray-900 capitalize">团队要闻</a></div>
+                                        <div class="flex items-center mt-6">
+                                            <div class="flex-shrink-0">
+                                                <span class="sr-only">NWPU-BBIC</span>
+                                                
+                                                    
+                                                        
+                                                        <img class="w-10 h-10 rounded-full" src="https://nwpu-bbic.github.io/../assets/images/global/favicon-32x32_hu59a12c3acfa3f65c89cb8690a817ca34_42374_400x0_resize_q75_h2_box_3.webp" alt="">
+                                                    
+                                                
+                                            </div>
+                                            <div class="pt-1 ml-3">
+                                                <p class="text-sm font-medium text-gray-900 dark:text-white">
+                                                    NWPU-BBIC
+                                                </p>
+                                                <div class="flex space-x-1 text-sm text-gray-500 dark:text-white">
+                                                    <time datetime="2020-02-12">2024-10-18</time>
+                                                    <span aria-hidden="true">&middot;</span>
+                                                    <span>1 min read</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            
+                        
+                            
+                                <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-gray-50 dark:bg-gray-900">
+                                    <a href="https://nwpu-bbic.github.io/news/%E8%84%91%E6%9C%BA%E6%8E%A5%E5%8F%A3%E4%B8%8E%E6%99%BA%E8%83%BD%E6%9C%BA%E5%99%A8%E4%BA%BA/paper_0018_wxh/">
+                                        
+                                            
+                                                
+                                                <img src="https://nwpu-bbic.github.io/../assets/images/featured/paper_images/paper_0018_%E5%9B%BE1_hu41bd7dccd01f1f3bc548c5ffcc1de96c_89181127_500x0_resize_q90_h2_box_3.webp" class="object-fill overflow-hidden rounded-t-lg"
+                                                     width="100%" height="" loading="lazy" alt="../assets/images/featured/paper_images/paper_0018_图1.png" />
+                                            
+                                        
+                                    </a>
+                                    <div class="p-6">
+                                        <div class="flex-1">
+                                            <a href="https://nwpu-bbic.github.io/news/%E8%84%91%E6%9C%BA%E6%8E%A5%E5%8F%A3%E4%B8%8E%E6%99%BA%E8%83%BD%E6%9C%BA%E5%99%A8%E4%BA%BA/paper_0018_wxh/"
+                                               class="block mt-2 text-2xl font-black text-gray-900 dark:text-gray-200 hover:text-indigo-600 dark:hover:text-indigo-500 hover:underline">
+                                                会议BIBM accept 论文：ST-GF：用于脑电图运动成像解码的基于图的时空特征融合网络
+                                            </a>
+                                            <p class="mt-3 text-base text-gray-900 dark:text-gray-300">
+                                                论文“ST-GF:Graph-based Fusion of Spatial and Temporal Features for EEG Motor Imagery Decoding”被会议BIBM2024接收
+                                            </p>
+                                        </div>
+                                        <div class="flex pt-6 font-medium text-indigo-600 dark:text-indigo-100 text-md">
+                                            <span class="pr-2 font-black">Tags:</span>
+                                            <a href="https://nwpu-bbic.github.io/tags/%E8%84%91%E6%9C%BA%E6%8E%A5%E5%8F%A3%E4%B8%8E%E6%99%BA%E8%83%BD%E6%9C%BA%E5%99%A8%E4%BA%BA/"
+                                                   class="inline-flex items-center rounded-md bg-gray-300 hover:bg-indigo-200 hover:text-black px-2.5 py-0.5 text-sm font-medium text-gray-900 capitalize">脑机接口与智能机器人</a></div>
+                                        <div class="flex items-center mt-6">
+                                            <div class="flex-shrink-0">
+                                                <span class="sr-only">王旭辉</span>
+                                                
+                                                    
+                                                        
+                                                        <img class="w-10 h-10 rounded-full" src="https://nwpu-bbic.github.io/../assets/images/global/favicon-32x32_hu59a12c3acfa3f65c89cb8690a817ca34_42374_400x0_resize_q75_h2_box_3.webp" alt="">
+                                                    
+                                                
+                                            </div>
+                                            <div class="pt-1 ml-3">
+                                                <p class="text-sm font-medium text-gray-900 dark:text-white">
+                                                    王旭辉
+                                                </p>
+                                                <div class="flex space-x-1 text-sm text-gray-500 dark:text-white">
+                                                    <time datetime="2020-02-12">2024-10-14</time>
+                                                    <span aria-hidden="true">&middot;</span>
+                                                    <span>2 min read</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            
+                        
+                            
+                                <div class="flex flex-col overflow-hidden rounded-lg shadow-lg bg-gray-50 dark:bg-gray-900">
+                                    <a href="https://nwpu-bbic.github.io/news/%E5%9B%A2%E9%98%9F%E8%A6%81%E9%97%BB/td_0025/">
+                                        
+                                            
+                                                
+                                                <img src="https://nwpu-bbic.github.io/../assets/images/featured/%E5%9B%A2%E9%98%9F%E8%A6%81%E9%97%BB/TD_0025_hu063bb5a33cadd16f2239e4e6c8b6560e_712987_500x0_resize_q90_h2_box_3.webp" class="object-fill overflow-hidden rounded-t-lg"
+                                                     width="100%" height="" loading="lazy" alt="../assets/images/featured/团队要闻/TD_0025.png" />
+                                            
+                                        
+                                    </a>
+                                    <div class="p-6">
+                                        <div class="flex-1">
+                                            <a href="https://nwpu-bbic.github.io/news/%E5%9B%A2%E9%98%9F%E8%A6%81%E9%97%BB/td_0025/"
+                                               class="block mt-2 text-2xl font-black text-gray-900 dark:text-gray-200 hover:text-indigo-600 dark:hover:text-indigo-500 hover:underline">
+                                                赴广州参加RLChina 2024 大会
+                                            </a>
+                                            <p class="mt-3 text-base text-gray-900 dark:text-gray-300">
+                                                本团队成员胡华文于10月12日至10月18日赴广州参加RLChina 2024 大会
+                                            </p>
+                                        </div>
+                                        <div class="flex pt-6 font-medium text-indigo-600 dark:text-indigo-100 text-md">
+                                            <span class="pr-2 font-black">Tags:</span>
+                                            <a href="https://nwpu-bbic.github.io/tags/%E5%9B%A2%E9%98%9F%E8%A6%81%E9%97%BB/"
+                                                   class="inline-flex items-center rounded-md bg-gray-300 hover:bg-indigo-200 hover:text-black px-2.5 py-0.5 text-sm font-medium text-gray-900 capitalize">团队要闻</a></div>
+                                        <div class="flex items-center mt-6">
+                                            <div class="flex-shrink-0">
+                                                <span class="sr-only">NWPU-BBIC</span>
+                                                
+                                                    
+                                                        
+                                                        <img class="w-10 h-10 rounded-full" src="https://nwpu-bbic.github.io/../assets/images/global/favicon-32x32_hu59a12c3acfa3f65c89cb8690a817ca34_42374_400x0_resize_q75_h2_box_3.webp" alt="">
+                                                    
+                                                
+                                            </div>
+                                            <div class="pt-1 ml-3">
+                                                <p class="text-sm font-medium text-gray-900 dark:text-white">
+                                                    NWPU-BBIC
+                                                </p>
+                                                <div class="flex space-x-1 text-sm text-gray-500 dark:text-white">
+                                                    <time datetime="2020-02-12">2024-10-12</time>
+                                                    <span aria-hidden="true">&middot;</span>
+                                                    <span>1 min read</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    
+
+</main>
+
+    
+
+<script src="https://nwpu-bbic.github.io/js/alpine.js" defer></script>
+
+<script src="https://nwpu-bbic.github.io/js/darkmode.js" defer></script>
+<footer class="bg-gray-900">
+    <div class="max-w-md px-4 py-6 mx-auto overflow-hidden sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
+        <nav class="flex flex-wrap justify-center -mx-5 -my-2" aria-label="Footer">
+            <div class="px-5 py-2">
+                <a href="https://nwpu-bbic.github.io/" class="text-base text-gray-400 hover:text-gray-300">Home</a>
+            </div>
+
+            <div class="px-5 py-2">
+                <a href="https://nwpu-bbic.github.io/about" class="text-base text-gray-400 hover:text-gray-300">About</a>
+            </div>
+
+            <div class="px-5 py-2">
+                <a href="https://nwpu-bbic.github.io/member/" class="text-base text-gray-400 hover:text-gray-300">Member</a>
+            </div>
+
+            <div class="px-5 py-2">
+                <a href="https://nwpu-bbic.github.io/news/" class="text-base text-gray-400 hover:text-gray-300">News</a>
+            </div>
+
+            
+
+            <div class="px-5 py-2">
+                <a href="https://nwpu-bbic.github.io/join_us/" class="text-base text-gray-400 hover:text-gray-300">Join us</a>
+            </div>
+        </nav>
+        <div class="flex justify-center mt-0 space-x-0">
+            
+            
+            
+        </div>
+        <p class="mt-8 text-base text-center text-gray-400">&copy; 2024
+            NWPU BBIC. All rights
+            reserved.</p>
+        
+    </div>
+</footer>
+</body>
+
+</html>
