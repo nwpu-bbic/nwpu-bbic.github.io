@@ -1,18 +1,917 @@
-<!doctype html><html lang=en><head><meta http-equiv=content-type content="text/html" charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge,chrome=1"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=apple-touch-icon sizes=180x180 href=https://nwpu-bbic.github.io/favicon/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=https://nwpu-bbic.github.io/favicon/favicon-32x32.png><link rel=manifest href=https://nwpu-bbic.github.io/favicon/site.webmanifest><link rel=mask-icon href=https://nwpu-bbic.github.io/favicon/safari-pinned-tab.svg color=#5bbad5><meta name=msapplication-TileColor content="#da532c"><meta name=theme-color content="#ffffff"><title itemprop=name>论文汇总 | NWPU BBIC</title><meta name=description content="脑科学与类脑计算交叉研究中心"><meta property="og:title" content="论文汇总 | NWPU BBIC"><meta name=twitter:title content="论文汇总 | NWPU BBIC"><meta itemprop=name content="论文汇总 | NWPU BBIC"><meta name=application-name content="论文汇总 | NWPU BBIC"><meta property="og:site_name" content="NWPU BBIC"><meta property="og:type" content="website"><meta property="og:title" content="NWPU BBIC"><meta property="og:description" content="脑科学与类脑计算交叉研究中心"><meta property="og:site_name" content="NWPU BBIC"><meta property="og:url" content="https://nwpu-bbic.github.io/timeline/"><meta property="og:locale" content="en"><meta property="og:image" content="/images/tailbliss-cover.png"><meta property="og:image:secure_url" content="https://nwpu-bbic.github.io/images/tailbliss-cover.png"><meta property="og:type" content="website"><script>localStorage.getItem("color-theme")==="dark"||!("color-theme"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")</script><link rel=stylesheet href="/css/style.min.81eb063726da857c93ed926a3d1979dd1feb3c834c502453253d974ff6b5db3a.css" integrity="sha256-gesGNybahXyT7ZJqPRl53R/rPINMUCRTJT2XT/a12zo="></head><body class="bg-zinc-100 dark:bg-gray-800"><div class="top-0 z-50 w-full text-gray-200 bg-gray-900 border-2 border-gray-900 md:sticky border-b-stone-200/10"><div x-data="{ open: false }" class="flex flex-col max-w-full px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8"><div class="flex flex-row items-center justify-between p-4"><a href=https://nwpu-bbic.github.io/ class="flex text-gray-100 transition duration-1000 ease-in-out group"><img src=https://nwpu-bbic.github.io/images/logo.svg class="transition-opacity h-9 w-9 group-hover:opacity-50 group-focus:opacity-70" alt="NWPU BBIC Logo"><div class="mt-1 ml-3 text-xl font-black tracking-tight text-gray-100 uppercase transition-colors group-hover:text-gray-400/60">NWPU BBIC</div></a><button class="rounded-lg md:hidden focus:outline-none focus:shadow-outline" @click="open = !open" role=navigation aria-expanded=false aria-label=Main aria-controls=menuItems><svg fill="currentcolor" viewBox="0 0 20 20" class="w-6 h-6"><path x-show="!open" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4A1 1 0 013 5zm0 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm6 5a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"/><path x-show="open" fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414.0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/></svg></button></div><nav :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row"><a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none focus:shadow-outline" href=https://nwpu-bbic.github.io/>首页</a>
-<a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none focus:shadow-outline" href=https://nwpu-bbic.github.io/about/>团队概况</a><div @click.away="open = false" class=relative x-data="{ open: false }"><button @click="open = !open" class="flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-600 focus:outline-none focus:shadow-outline">
-<span>团队成员</span><svg fill="currentcolor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}" class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414.0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414.0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg></button><div x-show=open x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute right-0 z-30 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48"><div class="px-2 py-2 text-indigo-900 bg-white rounded-md shadow"><a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-600 focus:outline-none focus:shadow-outline" href=https://nwpu-bbic.github.io/member/>成员一览</a>
-<a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none focus:shadow-outline" href=https://nwpu-bbic.github.io/member2/>毕业去向</a></div></div></div><div @click.away="open = false" class=relative x-data="{ open: false }"><button @click="open = !open" class="flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-600 focus:outline-none focus:shadow-outline">
-<span>成果展示</span><svg fill="currentcolor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}" class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414.0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414.0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg></button><div x-show=open x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute right-0 z-30 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48"><div class="px-2 py-2 text-indigo-900 bg-white rounded-md shadow"><a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-600 focus:outline-none focus:shadow-outline" href=https://nwpu-bbic.github.io/timeline/>论文汇总</a>
-<a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none focus:shadow-outline" href=https://nwpu-bbic.github.io/timeline2/>项目成果展示</a></div></div></div><div @click.away="open = false" class=relative x-data="{ open: false }"><button @click="open = !open" class="flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-600 focus:outline-none focus:shadow-outline">
-<span>团队新闻</span><svg fill="currentcolor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}" class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414.0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414.0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg></button><div x-show=open x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute right-0 z-30 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48"><div class="px-2 py-2 text-indigo-900 bg-white rounded-md shadow"><a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-600 focus:outline-none focus:shadow-outline" href=https://nwpu-bbic.github.io/news/>全部</a>
-<a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none focus:shadow-outline" href=https://nwpu-bbic.github.io/tags/团队要闻/>团队要闻</a>
-<a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-600 focus:outline-none focus:shadow-outline" href=https://nwpu-bbic.github.io/tags/脑影像人工智能/>脑影像人工智能</a>
-<a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none focus:shadow-outline" href=https://nwpu-bbic.github.io/tags/脑机接口与智能机器人/>脑机接口与智能机器人</a>
-<a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none focus:shadow-outline" href=https://nwpu-bbic.github.io/tags/计算机辅助诊断/>计算机辅助诊断</a></div></div></div><a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none focus:shadow-outline" href=https://nwpu-bbic.github.io/join_us>加入我们</a>
-<button id=theme-toggle type=button class="p-2 text-sm text-gray-500 rounded-lg md: dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 md:ml-2 max-w-5 xs:hidden"><svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentcolor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001.0 1010.586 10.586z"/></svg><svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentcolor" viewBox="0 0 20 20" aria-label="Dark or Light Mode" xmlns="http://www.w3.org/2000/svg"><path d="M10 2a1 1 0 011 1v1A1 1 0 119 4V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707A1 1 0 1113.536 5.05l.707-.707a1 1 0 011.414.0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707A1 1 0 004.343 5.757l.707.707zm1.414 8.486-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"/></svg></button></nav></div></div><style>.timeline-container{max-width:1xl;margin:0 auto;padding:0 20%}.featured-image{max-width:100%;height:auto}.body-box{width:100%;background:var(--background);color:var(--routine);margin-left:0%;box-sizing:border-box;white-space:normal;overflow:visible}.incident-record{padding-left:0%;margin-right:0%;box-sizing:border-box}.timer-shaft-box{width:100%;padding:45px 10px;box-sizing:border-box}.timeline-title{text-align:center;font-size:29px;color:#3c49be}.timer-shaft{position:relative;width:100%;height:80px;overflow:hidden}.timer-left{position:absolute;top:50%;left:-10px;z-index:1;width:22px;height:22px;margin-top:-2.5px;border-top:.4rem solid var(--minor);border-right:.4rem solid var(--minor);box-shadow:0 0 lightgray;transition:all 200ms ease;transform:translate3d(0,-50%,0)rotate(-135deg);cursor:pointer;background-color:#004cda}.timer-right{position:absolute;top:50%;right:-10px;z-index:1;width:22px;height:22px;margin-top:-2.5px;border-top:.4rem solid var(--minor);border-right:.4rem solid var(--minor);box-shadow:0 0 lightgray;transition:all 200ms ease;transform:translate3d(0,-50%,0)rotate(45deg);cursor:pointer;background-color:#4099ff}.timer-scale{position:absolute;top:0;left:50px;height:80px;padding-left:60px;font-size:0;white-space:nowrap}.timer-scale-cont{display:inline-block;height:100%;line-height:80px}.time-circle{display:inline-block;vertical-align:middle;width:70px;height:60px;line-height:60px;text-align:center;font-size:20px;color:#fff;border-radius:15px;background:#81aada;transition:all .3s;cursor:pointer}.timer-scale-cont.hov .time-circle{width:100px;height:80px;line-height:80px;font-size:28px;background:#3c49be}.line-scale{display:inline-block;vertical-align:middle;width:100px;height:22px;margin:0 2px;background:url(/static/images/timeline/1.png)no-repeat;background-size:cover}.timer-shaft-content{width:100%;top:0;overflow:hidden;font-size:0;box-sizing:border-box;white-space:nowrap}.shaft-detail-cont{display:none;width:100%}.timer-year{padding-left:95px;font-weight:700;font-size:0}.icon-year{display:inline-block;vertical-align:middle;color:#3c49be;width:30px;height:30px;margin:30px auto;border:solid 5px;border-radius:16px 16px 16px 0;-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);transform:rotate(-45deg)}.timer-year span{display:inline-block;vertical-align:middle;margin-left:18px;font-size:24px}.month-detail-box{position:relative;width:100%;min-height:93px;padding-top:40px;font-size:0;box-sizing:border-box;white-space:normal}.month-detail-box:before{content:'';position:absolute;top:0;left:109px;height:100%;border-right:1px dashed #3c49be}.month-detail-box .month-title{position:absolute;font-size:20px;left:0%;font-weight:700}.month-detail-box .month-title:before{content:'';position:absolute;top:50%;left:103px;width:13px;height:13px;margin-top:-6.5px;background-color:var(--background);border-radius:50%;border:3px solid #3c66db}.incident-record{display:inline-block;padding-left:130px;margin-right:0;line-height:2;font-size:17px;word-wrap:break-word}.incident-record a{font-size:2px;color:#1d69a3}.incident-record a{font-size:17px;color:#1d69a3;text-decoration:underline;cursor:pointer}.incident-record a:hover{color:#004080}@media screen and (max-width:797px){.body-box{width:100%;margin-left:0}.timer-shaft-content{margin-top:0}.timer-scale{padding-left:0;margin-top:0%}.timer-scale-cont{display:block;text-align:center;margin-bottom:10px}.time-circle{width:70px;height:70px;line-height:70px;font-size:16px}.timer-scale-cont.hov .time-circle{width:90px;height:90px;line-height:90px;font-size:20px}.line-scale{width:60px;height:15px;margin:0 2px}.timer-year{padding-left:0;margin-top:30px}.icon-year{margin:10px auto}.month-detail-box{padding-top:20px}.month-detail-box:before{left:0}.incident-record{padding-left:10%;margin-top:40px;margin-right:0}.month-detail-box{padding-top:3px}.month-detail-box .month-title:before{content:'';position:absolute;top:50%;left:100px;width:13px;height:13px;margin-top:-6.5px;background-color:var(--background);border-radius:50%;border:3px solid #3c66db}.month-detail-box .month-title{position:absolute;font-size:20px;left:10px;font-weight:700}}</style><article><header class="mb-4 bg-indigo-600"><span class=py-96><h1 class="py-16 text-5xl font-black text-center text-white capitalize">论文汇总</h1></span></header><div class="timer-title dark:text-white"><div class="max-w-5xl mx-auto mt-8 mb-2"><div class=px-6><div class=timeline-container><img src=https://nwpu-bbic.github.io/../assets/images/featured/timeline_hu1fb9ffe6e4f4767e058d4e137749e90e_99930_1300x0_resize_q80_h2_box.webp srcset=", /../assets/images/featured/timeline_hu1fb9ffe6e4f4767e058d4e137749e90e_99930_400x0_resize_q80_h2_box.webp 400w, /../assets/images/featured/timeline_hu1fb9ffe6e4f4767e058d4e137749e90e_99930_550x0_resize_q80_h2_box.webp 550w, /../assets/images/featured/timeline_hu1fb9ffe6e4f4767e058d4e137749e90e_99930_900x0_resize_q80_h2_box.webp 768w, /../assets/images/featured/timeline_hu1fb9ffe6e4f4767e058d4e137749e90e_99930_1300x0_resize_q80_h2_box.webp 800w" class="object-fill overflow-hidden rounded-lg shadow-lg ring-4 ring-zinc-300/40 dark:ring-gray-900/40 shadow-neutral-100/20 dark:shadow-neutral-800/40 featured-image" width=100% alt><div class="Qc_main Qc_page"><div class=Qc_detail><div class=body-box><div class=timer-shaft-box><div class=timer-shaft><div class=timer-left></div><div class=timer-right></div><div class=timer-scale><div class="timer-scale-cont hov"><p class=time-circle>2024</p><p class=line-scale></p></div><div class="timer-scale-cont hov"><p class=time-circle>2023</p><p class=line-scale></p></div><div class="timer-scale-cont hov"><p class=time-circle>2022</p><p class=line-scale></p></div></div></div><div class=timer-shaft-content><div class=shaft-detail-cont><p class=timer-year><i class=icon-year></i>
-<span>2024年</span></p><div class=month-detail-box><span class=month-title>10月14日</span><p class=incident-record>Wang X, Zhao K, Yu S, et al. ST-GF:Graph-based Fusion of Spatial and Temporal Features for EEG Motor Imagery Decoding. //2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM). IEEE, 2024.<br>Accepted.</p></div><div class=month-detail-box><span class=month-title>08月16日</span><p class=incident-record>Yuan Q, Shi E, Zhao K, et al. A Smooth Conditional Domain Adversarial Training Framework for EEG Motor Imagery Decoding. //2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM). IEEE, 2024.<br>Accepted.</p></div><div class=month-detail-box><span class=month-title>08月16日</span><p class=incident-record>Yue C, Hu H, Shi E, et al. TF-HiTNet:A Temporal-Frequency Hierarchical Transformer Network for EEG Motor Imagery Classification. //2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM). IEEE, 2024.<br>Accepted.</p></div><div class=month-detail-box><span class=month-title>05月14日</span><p class=incident-record>Zhang X, Shi E, Yu S, et al. DTCA:Dual-Branch Transformer with Cross-Attention for EEG and Eye Movement Data Fusion[C]//International Conference on Medical Image Computing and Computer-Assisted Intervention. Cham:Springer Nature Switzerland, 2024:141-151.<br><a href=https://link.springer.com/chapter/10.1007/978-3-031-72069-7_14 target=_blank>https://link.springer.com/chapter/10.1007/978-3-031-72069-7_14</a></p></div><div class=month-detail-box><span class=month-title>02月08日</span><p class=incident-record>Zhao K, Kang Y, Wu J, et al. A Self-Adaptive Subgraph Generation Algorithm for EEG Channel Selection[C]//2024 IEEE International Symposium on Biomedical Imaging (ISBI). IEEE, 2024:1-5.<br><a href=https://ieeexplore.ieee.org/abstract/document/10635649 target=_blank>https://ieeexplore.ieee.org/abstract/document/10635649</a></p></div></div><div class=shaft-detail-cont><p class=timer-year><i class=icon-year></i>
-<span>2023年</span></p><div class=month-detail-box><span class=month-title>12月21日</span><p class=incident-record>Wang J, Liu Z, Zhao L, et al. Review of large vision models and visual prompt engineering[J]. Meta-Radiology, 2023:100047.<br><a href=https://www.sciencedirect.com/science/article/pii/S2950162823000474 target=_blank>https://www.sciencedirect.com/science/article/pii/S2950162823000474</a></p></div><div class=month-detail-box><span class=month-title>12月06日</span><p class=incident-record>Shi E, Yu S, Kang Y, et al. MEET:A Multi-Band EEG Transformer for Brain States Decoding[J]. IEEE Transactions on Biomedical Engineering, 2023.<br><a href=https://ieeexplore.ieee.org/abstract/document/10345766 target=_blank>https://ieeexplore.ieee.org/abstract/document/10345766</a></p></div><div class=month-detail-box><span class=month-title>10月08日</span><p class=incident-record>Hu H, Zhang H, Shi E, et al. A Diffusion-Based Multi-Objective Ant Colony Algorithm For Optimizing Network Topology Design. 2023 The 9th International Conference On Communication And Information Processing.<br><a href=https://dl.acm.org/doi/abs/10.1145/3638884.3638945 target=_blank>https://dl.acm.org/doi/abs/10.1145/3638884.3638945</a></p></div><div class=month-detail-box><span class=month-title>10月01日</span><p class=incident-record>Kang Y, Wang R, Shi E, et al. Exploring Brain Function-Structure Connectome Skeleton via Self-supervised Graph-Transformer Approach[C]//International Conference on Medical Image Computing and Computer-Assisted Intervention. Cham:Springer Nature Switzerland, 2023:308-317.<br><a href=https://link.springer.com/chapter/10.1007/978-3-031-43993-3_30 target=_blank>https://link.springer.com/chapter/10.1007/978-3-031-43993-3_30</a></p></div><div class=month-detail-box><span class=month-title>10月01日</span><p class=incident-record>Zhang S, Wang R, Kang Y, et al. Joint Representation of Functional and Structural Profiles for Identifying Common and Consistent 3-Hinge Gyral Folding Landmark[C]//International Conference on Medical Image Computing and Computer-Assisted Intervention. Cham:Springer Nature Switzerland, 2023:163-172.<br><a href=https://link.springer.com/chapter/10.1007/978-3-031-43993-3_16 target=_blank>https://link.springer.com/chapter/10.1007/978-3-031-43993-3_16</a></p></div><div class=month-detail-box><span class=month-title>09月01日</span><p class=incident-record>Zhang S, Zhang H, Wang R, et al. A Novel Multi-Modality Framework for Exploring Brain Connectivity Hubs Via Reinforcement Learning Approach[C]//2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI). IEEE, 2023:1-5.<br><a href=https://ieeexplore.ieee.org/abstract/document/10230789 target=_blank>https://ieeexplore.ieee.org/abstract/document/10230789</a></p></div><div class=month-detail-box><span class=month-title>08月11日</span><p class=incident-record>Hu H, Yue C, Shi E, et al. Effective Human Motor Imagery Recognition via Segment Pool Based on One-Dimensional Convolutional Neural Network with Bidirectional Recurrent Attention Unit Network[J]. Applied Sciences, 2023, 13(16):9233.<br><a href=https://www.mdpi.com/2076-3417/13/16/9233 target=_blank>https://www.mdpi.com/2076-3417/13/16/9233</a></p></div><div class=month-detail-box><span class=month-title>07月18日</span><p class=incident-record>Zhang S, Shi E, Wu L, et al. Differentiating brain states via multi-clip random fragment strategy-based interactive bidirectional recurrent neural network[J]. Neural Networks, 2023, 165:1035-1049.<br><a href=https://www.sciencedirect.com/science/article/abs/pii/S0893608023003520 target=_blank>https://www.sciencedirect.com/science/article/abs/pii/S0893608023003520</a></p></div><div class=month-detail-box><span class=month-title>07月05日</span><p class=incident-record>Wang J, Shi E, Yu S, et al. Prompt engineering for healthcare:Methodologies and applications[J]. arXiv preprint arXiv:2304.14670, 2023.<br><a href=https://arxiv.org/abs/2304.14670 target=_blank>https://arxiv.org/abs/2304.14670</a></p></div><div class=month-detail-box><span class=month-title>06月01日</span><p class=incident-record>Zhang S, Wu J, Shi E, et al. MM-GLCM-CNN:A multi-scale and multi-level based GLCM-CNN for polyp classification[J]. Computerized Medical Imaging and Graphics, 2023:102257.<br><a href=https://www.sciencedirect.com/science/article/abs/pii/S0895611123000757 target=_blank>https://www.sciencedirect.com/science/article/abs/pii/S0895611123000757</a></p></div></div><div class=shaft-detail-cont><p class=timer-year><i class=icon-year></i>
-<span>2022年</span></p><div class=month-detail-box><span class=month-title>12月16日</span><p class=incident-record>Zhang S, Kang Y, Yu S, et al. A Novel Two-Stage Multi-view Low-Rank Sparse Subspace Clustering Approach to Explore the Relationship Between Brain Function and Structure[C]//International Workshop on Machine Learning in Medical Imaging. Cham:Springer Nature Switzerland, 2022:191-200.<br><a href=https://link.springer.com/chapter/10.1007/978-3-031-21014-3_20 target=_blank>https://link.springer.com/chapter/10.1007/978-3-031-21014-3_20</a></p></div><div class=month-detail-box><span class=month-title>10月12日</span><p class=incident-record>Zhang S, Wu J, Yu S, et al. A Bagging Strategy-Based Multi-scale Texture GLCM-CNN Model for Differentiating Malignant from Benign Lesions Using Small Pathologically Proven Dataset[C]//International Workshop on Multiscale Multimodal Medical Imaging. Cham:Springer Nature Switzerland, 2022:44-53.<br><a href=https://link.springer.com/chapter/10.1007/978-3-031-18814-5_5 target=_blank>https://link.springer.com/chapter/10.1007/978-3-031-18814-5_5</a></p></div><div class=month-detail-box><span class=month-title>09月30日</span><p class=incident-record>Yu S, Shi E, Wang R, et al. A hybrid learning framework for fine-grained interpretation of brain spatiotemporal patterns during naturalistic functional magnetic resonance imaging[J]. Frontiers in Human Neuroscience, 2022, 16:944543.<br><a href=https://www.frontiersin.org/articles/10.3389/fnhum.2022.944543/full target=_blank>https://www.frontiersin.org/articles/10.3389/fnhum.2022.944543/full</a></p></div></div></div></div></div><div class="max-w-6xl px-6 pt-6 pb-16 mx-auto prose dark:prose-invert dark:text-white"></div></div></div></div></div></div></div></article><script>(function(){var t,e=0,r=170,o=document.querySelectorAll(".timer-scale-cont").length;window.screen.width>1500?t=o-4:window.screen.width<1500&&(t=o-3),document.querySelector(".timer-left").addEventListener("click",()=>{e>0&&(e-=1,s(e,t)),n(e)}),document.querySelector(".timer-right").addEventListener("click",()=>{e<o-1&&(e+=1,n(e)),s(e,t)}),document.querySelectorAll(".time-circle").forEach((o,i)=>{o.addEventListener("click",()=>{e=i,s(e,t),n(e)})});function n(e){let t=document.querySelectorAll(".timer-scale-cont");for(let n=0;n<t.length;n++){let s=t[n];if(e===n){s.classList.add("hov"),i(s).forEach(function(e){e.classList.remove("hov")});break}}let n=document.querySelectorAll(".shaft-detail-cont");for(let t=0;t<n.length;t++){let s=n[t];if(e===t){s.style.display="block",i(s).forEach(e=>{e.style.display="none"});break}}}function s(e){moveLeft=-e*r,c(document.querySelector(".timer-scale"),{left:moveLeft})}function i(e){var t,n,s=[];if(e.parentNode&&e.parentNode.childNodes)for(t=0;t<e.parentNode.childNodes.length;t++)n=e.parentNode.childNodes[t],n!==e&&n.nodeType===Node.ELEMENT_NODE&&s.push(n);return s}function a(e,t){return getComputedStyle?getComputedStyle(e)[t]:e.currentStyle[t]}function c(e,t){clearInterval(e.timeId),e.timeId=setInterval(function(){for(s in t){var n,s,o,i=t[s];s=="opacity"?o=Math.round(a(e,"opacity")*100):o=parseInt(a(e,s)),n=(i-o)/30,n=n>0?Math.ceil(n):Math.floor(n),s=="opacity"?e.style.opacity=(o+n)/100:e.style[s]=o+n+"px"}},20)}s(0,t),n(0)})()</script><script src=https://nwpu-bbic.github.io/js/alpine.js defer></script>
-<script src=https://nwpu-bbic.github.io/js/darkmode.js defer></script><footer class=bg-gray-900><div class="max-w-md px-4 py-6 mx-auto overflow-hidden sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8"><nav class="flex flex-wrap justify-center -mx-5 -my-2" aria-label=Footer><div class="px-5 py-2"><a href=https://nwpu-bbic.github.io/ class="text-base text-gray-400 hover:text-gray-300">Home</a></div><div class="px-5 py-2"><a href=https://nwpu-bbic.github.io/about class="text-base text-gray-400 hover:text-gray-300">About</a></div><div class="px-5 py-2"><a href=https://nwpu-bbic.github.io/member/ class="text-base text-gray-400 hover:text-gray-300">Member</a></div><div class="px-5 py-2"><a href=https://nwpu-bbic.github.io/news/ class="text-base text-gray-400 hover:text-gray-300">News</a></div><div class="px-5 py-2"><a href=https://nwpu-bbic.github.io/join_us/ class="text-base text-gray-400 hover:text-gray-300">Join us</a></div></nav><div class="flex justify-center mt-0 space-x-0"></div><p class="mt-8 text-base text-center text-gray-400">&copy; 2024
-NWPU BBIC. All rights
-reserved.</p></div></footer></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="https://nwpu-bbic.github.io/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://nwpu-bbic.github.io/favicon/favicon-32x32.png">
+
+<link rel="manifest" href="https://nwpu-bbic.github.io/favicon/site.webmanifest">
+<link rel="mask-icon" href="https://nwpu-bbic.github.io/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<title itemprop="name"> 论文汇总 | NWPU BBIC 
+</title>
+<meta name="description" content="脑科学与类脑计算交叉研究中心" />
+<meta property="og:title" content="论文汇总 | NWPU BBIC" />
+<meta name="twitter:title" content="论文汇总 | NWPU BBIC" />
+<meta itemprop="name" content="论文汇总 | NWPU BBIC" />
+<meta name="application-name" content="论文汇总 | NWPU BBIC" />
+<meta property="og:site_name" content="NWPU BBIC" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="NWPU BBIC" />
+<meta property="og:description"
+      content="脑科学与类脑计算交叉研究中心" />
+<meta property="og:site_name" content="NWPU BBIC" />
+<meta property="og:url" content="https://nwpu-bbic.github.io/timeline/" />
+<meta property="og:locale" content="en">
+
+<meta property="og:image" content="/images/tailbliss-cover.png" />
+<meta property="og:image:secure_url" content="https://nwpu-bbic.github.io/images/tailbliss-cover.png" />
+
+<meta property="og:type" content="website" />
+<script>
+    
+    if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+    } else {
+        document.documentElement.classList.remove('dark')
+    }
+</script>
+
+
+
+<link rel="stylesheet" href="/css/style.min.81eb063726da857c93ed926a3d1979dd1feb3c834c502453253d974ff6b5db3a.css" integrity="sha256-gesGNybahXyT7ZJqPRl53R/rPINMUCRTJT2XT/a12zo=" />
+
+</head>
+
+<body class="bg-zinc-100 dark:bg-gray-800">
+    <div class="top-0 z-50 w-full text-gray-200 bg-gray-900 border-2 border-gray-900 md:sticky border-b-stone-200/10">
+    <div x-data="{ open: false }"
+         class="flex flex-col max-w-full px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
+        <div class="flex flex-row items-center justify-between p-4">
+            <a href="https://nwpu-bbic.github.io/" class="flex text-gray-100 transition duration-1000 ease-in-out group">
+                <img src="https://nwpu-bbic.github.io/images/logo.svg"
+                     class="transition-opacity h-9 w-9 group-hover:opacity-50 group-focus:opacity-70"
+                     alt="NWPU BBIC Logo" />
+                <div
+                     class="mt-1 ml-3 text-xl font-black tracking-tight text-gray-100 uppercase transition-colors group-hover:text-gray-400/60">
+                    NWPU BBIC</div>
+            </a>
+            <button class="rounded-lg md:hidden focus:outline-none focus:shadow-outline" @click="open = !open" role="navigation" aria-expanded="false" aria-label="Main" aria-controls="menuItems">
+                <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+                    <path x-show="!open" fill-rule="evenodd"
+                          d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                          clip-rule="evenodd"></path>
+                    <path x-show="open" fill-rule="evenodd"
+                          d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                          clip-rule="evenodd"></path>
+                </svg>
+            </button>
+        </div>
+        <nav :class="{'flex': open, 'hidden': !open}"
+             class="flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
+            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none focus:shadow-outline"
+             href="https://nwpu-bbic.github.io/">首页</a>
+            <a class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none focus:shadow-outline"
+                href="https://nwpu-bbic.github.io/about/">团队概况</a>
+            
+            <div @click.away="open = false" class="relative" x-data="{ open: false }">
+                    <button @click="open = !open"
+                            class="flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-600 focus:outline-none focus:shadow-outline">
+                        <span>团队成员</span>
+                        <svg fill="currentColor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}"
+                                class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1">
+                            <path fill-rule="evenodd"
+                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                    clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                    <div x-show="open" x-transition:enter="transition ease-out duration-100"
+                            x-transition:enter-start="transform opacity-0 scale-95"
+                            x-transition:enter-end="transform opacity-100 scale-100"
+                            x-transition:leave="transition ease-in duration-75"
+                            x-transition:leave-start="transform opacity-100 scale-100"
+                            x-transition:leave-end="transform opacity-0 scale-95"
+                            class="absolute right-0 z-30 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48">
+                        <div class="px-2 py-2 text-indigo-900 bg-white rounded-md shadow">
+                            <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-600 focus:outline-none focus:shadow-outline"
+                                href="https://nwpu-bbic.github.io/member/">成员一览</a>
+                            <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none focus:shadow-outline"
+                                href="https://nwpu-bbic.github.io/member2/">毕业去向</a>
+                                
+                        </div>
+                    </div>
+            </div>
+            <div @click.away="open = false" class="relative" x-data="{ open: false }">
+                <button @click="open = !open"
+                        class="flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-600 focus:outline-none focus:shadow-outline">
+                    <span>成果展示</span>
+                    <svg fill="currentColor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}"
+                            class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1">
+                        <path fill-rule="evenodd"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+                <div x-show="open" x-transition:enter="transition ease-out duration-100"
+                        x-transition:enter-start="transform opacity-0 scale-95"
+                        x-transition:enter-end="transform opacity-100 scale-100"
+                        x-transition:leave="transition ease-in duration-75"
+                        x-transition:leave-start="transform opacity-100 scale-100"
+                        x-transition:leave-end="transform opacity-0 scale-95"
+                        class="absolute right-0 z-30 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48">
+                    <div class="px-2 py-2 text-indigo-900 bg-white rounded-md shadow">
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-600 focus:outline-none focus:shadow-outline"
+                            href="https://nwpu-bbic.github.io/timeline/">论文汇总</a>
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none focus:shadow-outline"
+                            href="https://nwpu-bbic.github.io/timeline2/">项目成果展示</a>
+                            
+                    </div>
+                </div>
+            </div>
+
+            <div @click.away="open = false" class="relative" x-data="{ open: false }">
+                <button @click="open = !open"
+                        class="flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-600 focus:outline-none focus:shadow-outline">
+                    <span>团队新闻</span>
+                    <svg fill="currentColor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}"
+                         class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1">
+                        <path fill-rule="evenodd"
+                              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                              clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+                <div x-show="open" x-transition:enter="transition ease-out duration-100"
+                     x-transition:enter-start="transform opacity-0 scale-95"
+                     x-transition:enter-end="transform opacity-100 scale-100"
+                     x-transition:leave="transition ease-in duration-75"
+                     x-transition:leave-start="transform opacity-100 scale-100"
+                     x-transition:leave-end="transform opacity-0 scale-95"
+                     class="absolute right-0 z-30 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48">
+                    <div class="px-2 py-2 text-indigo-900 bg-white rounded-md shadow">
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-600 focus:outline-none focus:shadow-outline"
+                           href="https://nwpu-bbic.github.io/news/">全部</a>
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none focus:shadow-outline"
+                           href="https://nwpu-bbic.github.io/tags/团队要闻/">团队要闻</a>
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-600 focus:outline-none focus:shadow-outline"
+                           href="https://nwpu-bbic.github.io/tags/脑影像人工智能/">脑影像人工智能</a>
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none focus:shadow-outline"
+                           href="https://nwpu-bbic.github.io/tags/脑机接口与智能机器人/">脑机接口与智能机器人</a>
+                        <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none focus:shadow-outline"
+                           href="https://nwpu-bbic.github.io/tags/计算机辅助诊断/">计算机辅助诊断</a>
+                    </div>
+                </div>
+            </div>
+            
+            <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-indigo-600 focus:bg-indigo-700 focus:outline-none focus:shadow-outline"
+               href="https://nwpu-bbic.github.io/join_us">
+                加入我们
+            </a>
+            <button id="theme-toggle" type="button"
+                    class="p-2 text-sm text-gray-500 rounded-lg md: dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 md:ml-2 max-w-5 xs:hidden">
+                <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z">
+                    </path>
+                </svg>
+                <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                     aria-label="Dark or Light Mode" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                          fill-rule="evenodd" clip-rule="evenodd"></path>
+                </svg>
+            </button>
+        </nav>
+    </div>
+</div>
+    
+<style>
+
+      
+     .timeline-container {
+        max-width: 1xl;
+        margin: 0 auto;
+        padding: 0 20%;  
+    }
+    .featured-image {
+        max-width: 100%;  
+        height: auto;  
+    }
+
+    .body-box {
+        width: 100%;
+        background: var(--background);
+        color: var(--routine);
+        margin-left: 0%;
+        box-sizing: border-box;
+        white-space: normal;  
+        overflow: visible;  
+    }
+    
+    
+    .incident-record {
+        padding-left: 0%;  
+        margin-right: 0%;  
+        box-sizing: border-box;
+    }
+
+
+    .timer-shaft-box {
+        width: 100%;
+        padding: 45px 10px;
+        box-sizing: border-box;
+    }
+
+     
+    .timeline-title {
+        text-align: center;
+        font-size: 29px;
+        color: #3c49be; 
+    }
+
+     
+    .timer-shaft {
+        position: relative;
+        width: 100%;
+        height: 80px;
+        overflow: hidden;
+    }
+
+    
+    .timer-left {
+        position: absolute;
+        top: 50%;
+        left: -10px;
+        z-index: 1;
+        width: 22px;
+        height: 22px;
+        margin-top: -2.5px;
+        border-top: 0.4rem solid var(--minor);
+        border-right: 0.4rem solid var(--minor);
+        box-shadow: 0 0 0 lightgray;
+        transition: all 200ms ease;
+        transform: translate3d(0, -50%, 0) rotate(-135deg);
+        cursor: pointer;
+        background-color: rgb(0, 76, 218); 
+    }
+
+     
+    .timer-right {
+        position: absolute;
+        top: 50%;
+        right: -10px;
+        z-index: 1;
+        width: 22px;
+        height: 22px;
+        margin-top: -2.5px;
+        border-top: 0.4rem solid var(--minor);
+        border-right: 0.4rem solid var(--minor);
+        box-shadow: 0 0 0 lightgray;
+        transition: all 200ms ease;
+        transform: translate3d(0, -50%, 0) rotate(45deg);
+        cursor: pointer;
+        background-color: rgb(64, 153, 255); 
+    }
+
+     
+    .timer-scale {
+        position: absolute;
+        top: 0px;             
+        left: 50px;
+        height: 80px;
+        padding-left: 60px;  
+        font-size: 0;
+        white-space: nowrap;
+    }
+
+    .timer-scale-cont {
+        display: inline-block;
+        height: 100%;
+        line-height: 80px;
+    }
+
+    .time-circle {
+        display: inline-block;
+        vertical-align: middle;
+        width: 70px;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        font-size: 20px;
+        color: #ffffff;
+        border-radius: 15px;
+        background: #81aada;
+        transition: all .3s;
+        cursor: pointer;
+    }
+
+    .timer-scale-cont.hov .time-circle {
+        width: 100px;
+        height: 80px;
+        line-height: 80px;
+        font-size: 28px;
+        background: #3c49be;
+    }
+
+    .line-scale {
+        display: inline-block;
+        vertical-align: middle;
+        width: 100px;
+        height: 22px;
+        margin: 0 2px;
+        background: url(/static/images/timeline/1.png) no-repeat;
+        background-size: cover;
+    }
+
+    .timer-shaft-content {
+        width: 100%;
+        top: 0px;      
+        overflow: hidden;
+        font-size: 0;
+        box-sizing: border-box;
+        white-space: nowrap;
+    }
+
+    .shaft-detail-cont {
+        display: none;
+        width: 100%;
+    }
+
+    .timer-year {
+        padding-left: 95px;  
+        font-weight: bold;
+        font-size: 0;
+    }
+
+    .icon-year {
+        display: inline-block;
+        vertical-align: middle;
+        color: #3c49be;
+        width: 30px;
+        height: 30px;
+        margin: 30px auto;
+        border: solid 5px currentColor;
+        border-radius: 16px 16px 16px 0;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+
+    .timer-year span {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 18px;
+        font-size: 24px;
+    }
+
+    .month-detail-box {
+        position: relative;
+        width: 100%;
+        min-height: 93px;
+        padding-top: 40px;
+        font-size: 0;
+        box-sizing: border-box;
+        white-space: normal;
+    }
+
+    .month-detail-box:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 109px;  
+        height: 100%;
+        border-right: 1px dashed #3c49be;
+    }
+
+    .month-detail-box .month-title {
+        position: absolute;
+        font-size: 20px;
+        left: 0%;
+        font-weight: bold;
+    }
+
+    .month-detail-box .month-title:before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 103px;  
+        width: 13px;
+        height: 13px;
+        margin-top: -6.5px;
+        background-color: var(--background);
+        border-radius: 50%;
+        border: 3px solid #3c66db;
+    }
+
+    .incident-record {
+        display: inline-block;
+        padding-left: 130px;  
+         
+        margin-right: 0px;  
+        line-height: 2;
+        font-size: 17px;
+        word-wrap: break-word;
+    }
+
+    .incident-record a {
+        font-size: 2px;
+        color: #1d69a3;
+    }
+
+     
+    .incident-record a {
+        font-size: 17px;
+        color: #1d69a3;
+        text-decoration: underline;  
+        cursor: pointer;
+    }
+
+    .incident-record a:hover {
+        color: #004080;  
+    }
+
+      
+     @media screen and (max-width: 797px) {
+        .body-box {
+            width: 100%;
+            margin-left: 0;
+        }
+
+        .timer-shaft-content {
+            margin-top: 0px;  
+        }
+
+        .timer-scale {
+            padding-left: 0;  
+            margin-top: 0%;    
+        }
+
+        .timer-scale-cont {
+            display: block;
+            text-align: center;
+            margin-bottom: 10px;  
+        }
+
+        .time-circle {
+            width: 70px;  
+            height: 70px;  
+            line-height: 70px;  
+            font-size: 16px;  
+        }
+
+        .timer-scale-cont.hov .time-circle {
+            width: 90px;  
+            height: 90px;  
+            line-height: 90px;  
+            font-size: 20px;  
+        }
+
+        .line-scale {
+            width: 60px;  
+            height: 15px;  
+            margin: 0 2px;
+        }
+
+        .timer-year {
+            padding-left: 0;  
+            margin-top: 30px;
+        }
+
+        .icon-year {
+            margin: 10px auto;  
+        }
+
+        .month-detail-box {
+            padding-top: 20px;  
+        }
+
+        .month-detail-box:before {
+            left: 0;  
+        }
+
+        .incident-record {
+            padding-left: 10%;  
+            margin-top: 40px;
+            margin-right: 0;  
+        }
+        .month-detail-box {
+            padding-top: 3px;  
+        }
+
+      
+        .month-detail-box .month-title:before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 100px;  
+            width: 13px;
+            height: 13px;
+            margin-top: -6.5px;
+            background-color: var(--background);
+            border-radius: 50%;
+            border: 3px solid #3c66db;
+        }
+        .month-detail-box .month-title {
+            position: absolute;
+            font-size: 20px;
+            left: 10px;
+            font-weight: bold;
+        }
+    
+      
+    
+    }
+</style>
+
+
+
+
+<article>
+        <header class="mb-4 bg-indigo-600">
+            <span class="py-96">
+                <h1 class="py-16 text-5xl font-black text-center text-white capitalize">
+                    论文汇总
+                </h1>
+            </span>
+        </header>
+        
+        <div class="timer-title dark:text-white">
+        <div class="max-w-5xl mx-auto mt-8 mb-2">
+            <div class="px-6">
+                    
+                <div class="timeline-container">
+                
+                
+                
+                
+                
+                
+                <img src="https://nwpu-bbic.github.io/../assets/images/featured/timeline_hu1fb9ffe6e4f4767e058d4e137749e90e_99930_1300x0_resize_q80_h2_box.webp" srcset=", /../assets/images/featured/timeline_hu1fb9ffe6e4f4767e058d4e137749e90e_99930_400x0_resize_q80_h2_box.webp 400w, /../assets/images/featured/timeline_hu1fb9ffe6e4f4767e058d4e137749e90e_99930_550x0_resize_q80_h2_box.webp 550w, /../assets/images/featured/timeline_hu1fb9ffe6e4f4767e058d4e137749e90e_99930_900x0_resize_q80_h2_box.webp 768w, /../assets/images/featured/timeline_hu1fb9ffe6e4f4767e058d4e137749e90e_99930_1300x0_resize_q80_h2_box.webp 800w"
+                    class="object-fill overflow-hidden rounded-lg shadow-lg ring-4 ring-zinc-300/40 dark:ring-gray-900/40 shadow-neutral-100/20 dark:shadow-neutral-800/40 featured-image"
+                    width="100%" alt="" />
+
+                
+                
+                <div class="Qc_main Qc_page">
+                    <div class="Qc_detail">
+                
+                        <div class="body-box">
+                            <div class="timer-shaft-box">
+                                <div class="timer-shaft">
+                                    
+                                    <div class="timer-left "></div>
+                                    <div class="timer-right"></div>
+                
+                                    
+                                    
+                
+                                    <div class="timer-scale">
+                                        
+                                        <div class="timer-scale-cont hov">
+                                            <p class="time-circle">2024</p>
+                                            <p class="line-scale"></p>
+                                        </div>
+                                        
+                                        <div class="timer-scale-cont hov">
+                                            <p class="time-circle">2023</p>
+                                            <p class="line-scale"></p>
+                                        </div>
+                                        
+                                        <div class="timer-scale-cont hov">
+                                            <p class="time-circle">2022</p>
+                                            <p class="line-scale"></p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="timer-shaft-content">
+                                    
+                                    
+                                    <div class="shaft-detail-cont">
+                                        <p class="timer-year">
+                                            <i class="icon-year"></i>
+                                            <span>2024年</span>
+                                        </p>
+                        
+                                        
+                                        <div class="month-detail-box">
+                                            <span class="month-title">10月14日</span>
+                                            <p class="incident-record">Wang X, Zhao K, Yu S, et al. ST-GF:Graph-based Fusion of Spatial and Temporal Features for EEG Motor Imagery Decoding. //2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM). IEEE, 2024. <br>Accepted.</p>
+                                        </div>
+                                        
+                                        <div class="month-detail-box">
+                                            <span class="month-title">08月16日</span>
+                                            <p class="incident-record">Yuan Q, Shi E, Zhao K, et al. A Smooth Conditional Domain Adversarial Training Framework for EEG Motor Imagery Decoding. //2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM). IEEE, 2024. <br>Accepted.</p>
+                                        </div>
+                                        
+                                        <div class="month-detail-box">
+                                            <span class="month-title">08月16日</span>
+                                            <p class="incident-record">Yue C, Hu H, Shi E, et al. TF-HiTNet:A Temporal-Frequency Hierarchical Transformer Network for EEG Motor Imagery Classification. //2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM). IEEE, 2024. <br>Accepted.</p>
+                                        </div>
+                                        
+                                        <div class="month-detail-box">
+                                            <span class="month-title">05月14日</span>
+                                            <p class="incident-record">Zhang X, Shi E, Yu S, et al. DTCA:Dual-Branch Transformer with Cross-Attention for EEG and Eye Movement Data Fusion[C]//International Conference on Medical Image Computing and Computer-Assisted Intervention. Cham:Springer Nature Switzerland, 2024:141-151. <br><a href="https://link.springer.com/chapter/10.1007/978-3-031-72069-7_14" target="_blank">https://link.springer.com/chapter/10.1007/978-3-031-72069-7_14</a></p>
+                                        </div>
+                                        
+                                        <div class="month-detail-box">
+                                            <span class="month-title">02月08日</span>
+                                            <p class="incident-record">Zhao K, Kang Y, Wu J, et al. A Self-Adaptive Subgraph Generation Algorithm for EEG Channel Selection[C]//2024 IEEE International Symposium on Biomedical Imaging (ISBI). IEEE, 2024:1-5. <br><a href="https://ieeexplore.ieee.org/abstract/document/10635649" target="_blank">https://ieeexplore.ieee.org/abstract/document/10635649</a></p>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                    
+                                    <div class="shaft-detail-cont">
+                                        <p class="timer-year">
+                                            <i class="icon-year"></i>
+                                            <span>2023年</span>
+                                        </p>
+                        
+                                        
+                                        <div class="month-detail-box">
+                                            <span class="month-title">12月21日</span>
+                                            <p class="incident-record">Wang J, Liu Z, Zhao L, et al. Review of large vision models and visual prompt engineering[J]. Meta-Radiology, 2023:100047. <br><a href="https://www.sciencedirect.com/science/article/pii/S2950162823000474" target="_blank">https://www.sciencedirect.com/science/article/pii/S2950162823000474</a></p>
+                                        </div>
+                                        
+                                        <div class="month-detail-box">
+                                            <span class="month-title">12月06日</span>
+                                            <p class="incident-record">Shi E, Yu S, Kang Y, et al. MEET:A Multi-Band EEG Transformer for Brain States Decoding[J]. IEEE Transactions on Biomedical Engineering, 2023. <br><a href="https://ieeexplore.ieee.org/abstract/document/10345766" target="_blank">https://ieeexplore.ieee.org/abstract/document/10345766</a></p>
+                                        </div>
+                                        
+                                        <div class="month-detail-box">
+                                            <span class="month-title">10月08日</span>
+                                            <p class="incident-record">Hu H, Zhang H, Shi E, et al. A Diffusion-Based Multi-Objective Ant Colony Algorithm For Optimizing Network Topology Design. 2023 The 9th International Conference On Communication And Information Processing. <br><a href="https://dl.acm.org/doi/abs/10.1145/3638884.3638945" target="_blank">https://dl.acm.org/doi/abs/10.1145/3638884.3638945</a></p>
+                                        </div>
+                                        
+                                        <div class="month-detail-box">
+                                            <span class="month-title">10月01日</span>
+                                            <p class="incident-record">Kang Y, Wang R, Shi E, et al. Exploring Brain Function-Structure Connectome Skeleton via Self-supervised Graph-Transformer Approach[C]//International Conference on Medical Image Computing and Computer-Assisted Intervention. Cham:Springer Nature Switzerland, 2023:308-317. <br><a href="https://link.springer.com/chapter/10.1007/978-3-031-43993-3_30" target="_blank">https://link.springer.com/chapter/10.1007/978-3-031-43993-3_30</a></p>
+                                        </div>
+                                        
+                                        <div class="month-detail-box">
+                                            <span class="month-title">10月01日</span>
+                                            <p class="incident-record">Zhang S, Wang R, Kang Y, et al. Joint Representation of Functional and Structural Profiles for Identifying Common and Consistent 3-Hinge Gyral Folding Landmark[C]//International Conference on Medical Image Computing and Computer-Assisted Intervention. Cham:Springer Nature Switzerland, 2023:163-172. <br><a href="https://link.springer.com/chapter/10.1007/978-3-031-43993-3_16" target="_blank">https://link.springer.com/chapter/10.1007/978-3-031-43993-3_16</a></p>
+                                        </div>
+                                        
+                                        <div class="month-detail-box">
+                                            <span class="month-title">09月01日</span>
+                                            <p class="incident-record">Zhang S, Zhang H, Wang R, et al. A Novel Multi-Modality Framework for Exploring Brain Connectivity Hubs Via Reinforcement Learning Approach[C]//2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI). IEEE, 2023:1-5. <br><a href="https://ieeexplore.ieee.org/abstract/document/10230789" target="_blank">https://ieeexplore.ieee.org/abstract/document/10230789</a></p>
+                                        </div>
+                                        
+                                        <div class="month-detail-box">
+                                            <span class="month-title">08月11日</span>
+                                            <p class="incident-record">Hu H, Yue C, Shi E, et al. Effective Human Motor Imagery Recognition via Segment Pool Based on One-Dimensional Convolutional Neural Network with Bidirectional Recurrent Attention Unit Network[J]. Applied Sciences, 2023, 13(16):9233. <br><a href="https://www.mdpi.com/2076-3417/13/16/9233" target="_blank">https://www.mdpi.com/2076-3417/13/16/9233</a></p>
+                                        </div>
+                                        
+                                        <div class="month-detail-box">
+                                            <span class="month-title">07月18日</span>
+                                            <p class="incident-record">Zhang S, Shi E, Wu L, et al. Differentiating brain states via multi-clip random fragment strategy-based interactive bidirectional recurrent neural network[J]. Neural Networks, 2023, 165:1035-1049. <br><a href="https://www.sciencedirect.com/science/article/abs/pii/S0893608023003520" target="_blank">https://www.sciencedirect.com/science/article/abs/pii/S0893608023003520</a></p>
+                                        </div>
+                                        
+                                        <div class="month-detail-box">
+                                            <span class="month-title">07月05日</span>
+                                            <p class="incident-record">Wang J, Shi E, Yu S, et al. Prompt engineering for healthcare:Methodologies and applications[J]. arXiv preprint arXiv:2304.14670, 2023. <br><a href="https://arxiv.org/abs/2304.14670" target="_blank">https://arxiv.org/abs/2304.14670</a></p>
+                                        </div>
+                                        
+                                        <div class="month-detail-box">
+                                            <span class="month-title">06月01日</span>
+                                            <p class="incident-record">Zhang S, Wu J, Shi E, et al. MM-GLCM-CNN:A multi-scale and multi-level based GLCM-CNN for polyp classification[J]. Computerized Medical Imaging and Graphics, 2023:102257. <br><a href="https://www.sciencedirect.com/science/article/abs/pii/S0895611123000757" target="_blank">https://www.sciencedirect.com/science/article/abs/pii/S0895611123000757</a></p>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                    
+                                    <div class="shaft-detail-cont">
+                                        <p class="timer-year">
+                                            <i class="icon-year"></i>
+                                            <span>2022年</span>
+                                        </p>
+                        
+                                        
+                                        <div class="month-detail-box">
+                                            <span class="month-title">12月16日</span>
+                                            <p class="incident-record">Zhang S, Kang Y, Yu S, et al. A Novel Two-Stage Multi-view Low-Rank Sparse Subspace Clustering Approach to Explore the Relationship Between Brain Function and Structure[C]//International Workshop on Machine Learning in Medical Imaging. Cham:Springer Nature Switzerland, 2022:191-200. <br><a href="https://link.springer.com/chapter/10.1007/978-3-031-21014-3_20" target="_blank">https://link.springer.com/chapter/10.1007/978-3-031-21014-3_20</a></p>
+                                        </div>
+                                        
+                                        <div class="month-detail-box">
+                                            <span class="month-title">10月12日</span>
+                                            <p class="incident-record">Zhang S, Wu J, Yu S, et al. A Bagging Strategy-Based Multi-scale Texture GLCM-CNN Model for Differentiating Malignant from Benign Lesions Using Small Pathologically Proven Dataset[C]//International Workshop on Multiscale Multimodal Medical Imaging. Cham:Springer Nature Switzerland, 2022:44-53. <br><a href="https://link.springer.com/chapter/10.1007/978-3-031-18814-5_5" target="_blank">https://link.springer.com/chapter/10.1007/978-3-031-18814-5_5</a></p>
+                                        </div>
+                                        
+                                        <div class="month-detail-box">
+                                            <span class="month-title">09月30日</span>
+                                            <p class="incident-record">Yu S, Shi E, Wang R, et al. A hybrid learning framework for fine-grained interpretation of brain spatiotemporal patterns during naturalistic functional magnetic resonance imaging[J]. Frontiers in Human Neuroscience, 2022, 16:944543. <br><a href="https://www.frontiersin.org/articles/10.3389/fnhum.2022.944543/full" target="_blank">https://www.frontiersin.org/articles/10.3389/fnhum.2022.944543/full</a></p>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="max-w-6xl px-6 pt-6 pb-16 mx-auto prose dark:prose-invert dark:text-white">
+                            
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+</article>
+
+
+<script>
+
+
+(function(){
+  
+    
+    var timerNum = 0;
+    var space = 170; 
+    var length = document.querySelectorAll('.timer-scale-cont').length, numL;
+    
+    
+    if(window.screen.width > 1500) {
+        numL = length - 4
+    } else if(window.screen.width < 1500) {
+        numL = length - 3
+    }
+    
+    document.querySelector('.timer-left').addEventListener("click",() => {
+        if(timerNum > 0) {
+            timerNum -= 1;
+            moveL(timerNum, numL)
+        }
+        tags(timerNum);
+    })
+
+   
+    
+    document.querySelector('.timer-right').addEventListener("click",() => {
+        if(timerNum < length - 1) {
+            timerNum += 1;
+            tags(timerNum);
+        }
+        moveL(timerNum, numL)
+    })
+    
+    
+    document.querySelectorAll('.time-circle').forEach((ele,index) => {
+        
+        ele.addEventListener("click",() => {
+            timerNum = index;
+            moveL(timerNum, numL)
+            tags(timerNum);
+        })
+        
+       
+    })
+   
+   
+    function tags(num) {
+        let timerCount = document.querySelectorAll('.timer-scale-cont');
+        for(let i = 0; i < timerCount.length; i++) {
+            let element = timerCount[i];
+            if(num === i ){
+                element.classList.add('hov');
+                findBrotherDom(element).forEach(function (sibling) {
+                    sibling.classList.remove("hov");
+                });
+                break;
+            }
+        }
+
+        let detailCount = document.querySelectorAll('.shaft-detail-cont')
+        for(let j = 0; j< detailCount.length; j ++) {
+            let detailEle = detailCount[j];
+            if(num === j ){
+                detailEle.style.display = 'block';
+                findBrotherDom(detailEle).forEach((sibling) => {
+                    sibling.style.display = 'none';
+                })
+                break;
+            }
+        }
+    }
+   
+    function moveL(num, len) {
+        moveLeft = -num * space;
+        
+        animate(document.querySelector('.timer-scale'),{left:moveLeft})
+    }
+    
+    function findBrotherDom(targetElement) {
+        var siblings = []; 
+        
+        if (targetElement.parentNode && targetElement.parentNode.childNodes) {
+            for (var i = 0; i < targetElement.parentNode.childNodes.length; i++) {
+                var childNode = targetElement.parentNode.childNodes[i];
+                
+                if (childNode !== targetElement && childNode.nodeType === Node.ELEMENT_NODE) {
+                    siblings.push(childNode);
+                }
+            }
+        }
+        
+        return siblings;
+    }
+
+
+
+    
+    function getStyle(el, property) {
+        if (getComputedStyle) {
+            return getComputedStyle(el)[property];
+        } else {
+            return el.currentStyle[property];
+        }
+    }
+    
+
+    function animate(el, properties) {
+        clearInterval(el.timeId);
+        
+        el.timeId = setInterval(function() {
+            for (var property in properties) {
+                var current;
+                var target = properties[property];
+                
+                if (property == "opacity") {
+                    current = Math.round(getStyle(el, "opacity") * 100);
+                }
+                
+                else {
+                    current = parseInt(getStyle(el, property));
+                }
+                
+                var speed = (target - current) / 30;
+                
+                speed = speed > 0 ? Math.ceil(speed) : Math.floor(speed);
+                
+                if (property == "opacity") {
+                    el.style.opacity = (current + speed) / 100;
+                } else {
+                    el.style[property] = current + speed + "px";
+                }
+            }
+        }, 20);
+
+    }
+
+    
+    moveL(0, numL)
+    tags(0);
+
+})()
+
+
+</script>
+    
+
+<script src="https://nwpu-bbic.github.io/js/alpine.js" defer></script>
+
+<script src="https://nwpu-bbic.github.io/js/darkmode.js" defer></script>
+<footer class="bg-gray-900">
+    <div class="max-w-md px-4 py-6 mx-auto overflow-hidden sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
+        <nav class="flex flex-wrap justify-center -mx-5 -my-2" aria-label="Footer">
+            <div class="px-5 py-2">
+                <a href="https://nwpu-bbic.github.io/" class="text-base text-gray-400 hover:text-gray-300">Home</a>
+            </div>
+
+            <div class="px-5 py-2">
+                <a href="https://nwpu-bbic.github.io/about" class="text-base text-gray-400 hover:text-gray-300">About</a>
+            </div>
+
+            <div class="px-5 py-2">
+                <a href="https://nwpu-bbic.github.io/member/" class="text-base text-gray-400 hover:text-gray-300">Member</a>
+            </div>
+
+            <div class="px-5 py-2">
+                <a href="https://nwpu-bbic.github.io/news/" class="text-base text-gray-400 hover:text-gray-300">News</a>
+            </div>
+
+            
+
+            <div class="px-5 py-2">
+                <a href="https://nwpu-bbic.github.io/join_us/" class="text-base text-gray-400 hover:text-gray-300">Join us</a>
+            </div>
+        </nav>
+        <div class="flex justify-center mt-0 space-x-0">
+            
+            
+            
+        </div>
+        <p class="mt-8 text-base text-center text-gray-400">&copy; 2024
+            NWPU BBIC. All rights
+            reserved.</p>
+        
+    </div>
+</footer>
+</body>
+
+</html>

@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>计算机辅助诊断 on NWPU BBIC</title><link>https://nwpu-bbic.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9%E8%AF%8A%E6%96%AD/</link><description>Recent content in 计算机辅助诊断 on NWPU BBIC</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 21 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nwpu-bbic.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9%E8%AF%8A%E6%96%AD/index.xml" rel="self" type="application/rss+xml"/><item><title>期刊Meta-Radiology发表论文：大视觉模型与视觉提示工程综述</title><link>https://nwpu-bbic.github.io/news/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9%E8%AF%8A%E6%96%AD/paper_0010_wjq/</link><pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate><guid>https://nwpu-bbic.github.io/news/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9%E8%AF%8A%E6%96%AD/paper_0010_wjq/</guid><description>论文“Review of Large Vision Models and Visual Prompt Engineering”于期刊《Meta-Radiology》发表</description></item><item><title>arXiv上线论文：医疗保健提示工程：方法和应用</title><link>https://nwpu-bbic.github.io/news/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9%E8%AF%8A%E6%96%AD/paper_0011_wjq/</link><pubDate>Wed, 05 Jul 2023 00:00:00 +0000</pubDate><guid>https://nwpu-bbic.github.io/news/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9%E8%AF%8A%E6%96%AD/paper_0011_wjq/</guid><description>论文“Prompt Engineering for Healthcare: Methodologies and Applications”上线arXiv</description></item><item><title>期刊CMIG发表论文：用于肿瘤分类的基于多尺度和多灰度级数的 GLCM-CNN</title><link>https://nwpu-bbic.github.io/news/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9%E8%AF%8A%E6%96%AD/paper_0005_wjr/</link><pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate><guid>https://nwpu-bbic.github.io/news/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9%E8%AF%8A%E6%96%AD/paper_0005_wjr/</guid><description>论文“MM-GLCM-CNN: A multi-scale and multi-level based GLCM-CNN for polyp classification”被Computerized Medical Imaging and Graphics接收</description></item><item><title>会议MMMI发表论文：用于区分小型病理数据集的良恶性病变的基于袋集策略的多尺度纹理 GLCM-CNN 模型</title><link>https://nwpu-bbic.github.io/news/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9%E8%AF%8A%E6%96%AD/paper_0004_wjr/</link><pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate><guid>https://nwpu-bbic.github.io/news/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9%E8%AF%8A%E6%96%AD/paper_0004_wjr/</guid><description>论文“A Bagging Strategy-Based Multi-scale Texture GLCM-CNN Model for Differentiating Malignant from Benign Lesions Using Small Pathologically Proven Dataset”被Multiscale Multimodal Medical Imaging接收</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>计算机辅助诊断 on NWPU BBIC</title>
+    <link>https://nwpu-bbic.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9%E8%AF%8A%E6%96%AD/</link>
+    <description>Recent content in 计算机辅助诊断 on NWPU BBIC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nwpu-bbic.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9%E8%AF%8A%E6%96%AD/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>期刊Meta-Radiology发表论文：大视觉模型与视觉提示工程综述</title>
+      <link>https://nwpu-bbic.github.io/news/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9%E8%AF%8A%E6%96%AD/paper_0010_wjq/</link>
+      <pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://nwpu-bbic.github.io/news/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9%E8%AF%8A%E6%96%AD/paper_0010_wjq/</guid>
+      <description>论文“Review of Large Vision Models and Visual Prompt Engineering”于期刊《Meta-Radiology》发表</description>
+    </item>
+    
+    <item>
+      <title>arXiv上线论文：医疗保健提示工程：方法和应用</title>
+      <link>https://nwpu-bbic.github.io/news/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9%E8%AF%8A%E6%96%AD/paper_0011_wjq/</link>
+      <pubDate>Wed, 05 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://nwpu-bbic.github.io/news/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9%E8%AF%8A%E6%96%AD/paper_0011_wjq/</guid>
+      <description>论文“Prompt Engineering for Healthcare: Methodologies and Applications”上线arXiv</description>
+    </item>
+    
+    <item>
+      <title>期刊CMIG发表论文：用于肿瘤分类的基于多尺度和多灰度级数的 GLCM-CNN</title>
+      <link>https://nwpu-bbic.github.io/news/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9%E8%AF%8A%E6%96%AD/paper_0005_wjr/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://nwpu-bbic.github.io/news/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9%E8%AF%8A%E6%96%AD/paper_0005_wjr/</guid>
+      <description>论文“MM-GLCM-CNN: A multi-scale and multi-level based GLCM-CNN for polyp classification”被Computerized Medical Imaging and Graphics接收</description>
+    </item>
+    
+    <item>
+      <title>会议MMMI发表论文：用于区分小型病理数据集的良恶性病变的基于袋集策略的多尺度纹理 GLCM-CNN 模型 </title>
+      <link>https://nwpu-bbic.github.io/news/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9%E8%AF%8A%E6%96%AD/paper_0004_wjr/</link>
+      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://nwpu-bbic.github.io/news/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9%E8%AF%8A%E6%96%AD/paper_0004_wjr/</guid>
+      <description>论文“A Bagging Strategy-Based Multi-scale Texture GLCM-CNN Model for Differentiating Malignant from Benign Lesions Using Small Pathologically Proven Dataset”被Multiscale Multimodal Medical Imaging接收</description>
+    </item>
+    
+  </channel>
+</rss>
