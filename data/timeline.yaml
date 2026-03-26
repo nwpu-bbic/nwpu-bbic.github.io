@@ -1,0 +1,124 @@
+# 时间轴
+# timeline
+# 论文汇总
+
+- Year: 2025
+  Title: 2025年
+  TimeList: 
+
+    - Cal: 07月08日
+      Desc: Zhu D, Zhang S, Yu S, et al. Characterizing and Differentiating Brain States through A CS-KBRs Framework for Highlighting the Synergy of Common and Specific Brain Regions[J]. Computerized Medical Imaging and Graphics, 2025:102609.
+            <br><a href="https://www.sciencedirect.com/science/article/pii/S0895611125001181" target="_blank">https://www.sciencedirect.com/science/article/pii/S0895611125001181</a>
+
+    - Cal: 06月18日
+      Desc: Shi E, Hu H, Yuan Q, et al. BrainAlign:EEG-Vision Alignment via Frequency-Aware Temporal Encoder and Differentiable Cluster Assigner[C]//International Conference on Medical Image Computing and Computer-Assisted Intervention. Cham:Springer Nature Switzerland, 2025
+            <br><a href="https://link.springer.com/chapter/10.1007/978-3-032-04981-0_10" target="_blank">https://link.springer.com/chapter/10.1007/978-3-032-04981-0_10</a>
+
+
+    - Cal: 06月18日
+      Desc: Yue C, Hu H, Yuan Q, et al. Improving Motor Imagery EEG Signal Quality with Dynamic Visual Cues:An Innovative Paradigm and Dataset[C]//International Conference on Medical Image Computing and Computer-Assisted Intervention. Cham:Springer Nature Switzerland, 2025
+            <br><a href="https://link.springer.com/chapter/10.1007/978-3-032-05169-1_28" target="_blank">https://link.springer.com/chapter/10.1007/978-3-032-05169-1_28</a>
+
+    - Cal: 05月07日
+      Desc: Yuan Q, Shi E, Zhu D, et al. TF‐MEET:A Transferable Fusion Multi‐band Transformer for Cross‐Session EEG Decoding. CAAI Transactions on Intelligence Technology . 
+            <br><a href="https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/cit2.70056" target="_blank">https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/cit2.70056</a>
+
+
+
+    - Cal: 01月28日
+      Desc: Hu H, Shi E, Yue C, et al. HARP:Human-Assisted Regrouping with Permutation Invariant Critic for Multi-Agent Reinforcement Learning [C]//2025 IEEE International Conference on Robotics and Automation (ICRA). 2025.
+            <br><a href="https://arxiv.org/abs/2409.11741" target="_blank">https://arxiv.org/abs/2409.11741</a>
+    
+
+- Year: 2024
+  Title: 2024年
+  TimeList: 
+    - Cal: 12月27日
+      Desc: Kang Y, Zhu D, Zhang H, et al. Identifying influential nodes in brain networks via self-supervised graph-transformer[J]. Computers in Biology and Medicine, 2025, 186:109629.
+            <br><a href="https://www.sciencedirect.com/science/article/pii/S0010482524017141" target="_blank">https://www.sciencedirect.com/science/article/pii/S0010482524017141</a>
+    
+    - Cal: 12月27日
+      Desc: Wang J, Shi E, Hu H, et al. Large language models for robotics:Opportunities, challenges, and perspectives[J]. Journal of Automation and Intelligence, 2024.
+            <br><a href="https://www.sciencedirect.com/science/article/pii/S2949855424000613" target="_blank">https://www.sciencedirect.com/science/article/pii/S2949855424000613</a>
+
+    - Cal: 10月14日
+      Desc: Wang X, Zhao K, Shi E, et al. ST-GF:Graph-based Fusion of Spatial and Temporal Features for EEG Motor Imagery Decoding. //2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM). IEEE, 2024.
+            <br><a href="https://ieeexplore.ieee.org/abstract/document/10822062" target="_blank">https://ieeexplore.ieee.org/abstract/document/10822062</a>
+
+    - Cal: 08月16日
+      Desc: Yuan Q, Shi E, Zhao K, et al. A Smooth Conditional Domain Adversarial Training Framework for EEG Motor Imagery Decoding. //2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM). IEEE, 2024.
+            <br><a href="https://ieeexplore.ieee.org/document/10822204" target="_blank">https://ieeexplore.ieee.org/document/10822204</a>
+
+    - Cal: 08月16日
+      Desc: Yue C, Hu H, Shi E, et al. TF-HiTNet:A Temporal-Frequency Hierarchical Transformer Network for EEG Motor Imagery Classification. //2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM). IEEE, 2024.
+            <br><a href="https://ieeexplore.ieee.org/document/10822675" target="_blank">https://ieeexplore.ieee.org/document/10822675</a>
+
+    - Cal: 05月14日
+      Desc: Zhang X, Shi E, Yu S, et al. DTCA:Dual-Branch Transformer with Cross-Attention for EEG and Eye Movement Data Fusion[C]//International Conference on Medical Image Computing and Computer-Assisted Intervention. Cham:Springer Nature Switzerland, 2024:141-151.
+            <br><a href="https://link.springer.com/chapter/10.1007/978-3-031-72069-7_14" target="_blank">https://link.springer.com/chapter/10.1007/978-3-031-72069-7_14</a>
+
+    - Cal: 02月08日
+      Desc: Zhao K, Kang Y, Wu J, et al. A Self-Adaptive Subgraph Generation Algorithm for EEG Channel Selection[C]//2024 IEEE International Symposium on Biomedical Imaging (ISBI). IEEE, 2024:1-5.
+            <br><a href="https://ieeexplore.ieee.org/abstract/document/10635649" target="_blank">https://ieeexplore.ieee.org/abstract/document/10635649</a>
+
+
+
+- Year: 2023
+  Title: 2023年
+  TimeList: 
+    - Cal: 12月21日
+      Desc: Wang J, Liu Z, Zhao L, et al. Review of large vision models and visual prompt engineering[J]. Meta-Radiology, 2023:100047.
+            <br><a href="https://www.sciencedirect.com/science/article/pii/S2950162823000474" target="_blank">https://www.sciencedirect.com/science/article/pii/S2950162823000474</a>
+
+    - Cal: 12月06日
+      Desc: Shi E, Yu S, Kang Y, et al. MEET:A Multi-Band EEG Transformer for Brain States Decoding[J]. IEEE Transactions on Biomedical Engineering, 2023.
+            <br><a href="https://ieeexplore.ieee.org/abstract/document/10345766" target="_blank">https://ieeexplore.ieee.org/abstract/document/10345766</a>
+
+    - Cal: 10月08日
+      Desc: Hu H, Zhang H, Shi E, et al. A Diffusion-Based Multi-Objective Ant Colony Algorithm For Optimizing Network Topology Design. 2023 The 9th International Conference On Communication And Information Processing.
+            <br><a href="https://dl.acm.org/doi/abs/10.1145/3638884.3638945" target="_blank">https://dl.acm.org/doi/abs/10.1145/3638884.3638945</a>
+    
+    - Cal: 10月01日
+      Desc: Kang Y, Wang R, Shi E, et al. Exploring Brain Function-Structure Connectome Skeleton via Self-supervised Graph-Transformer Approach[C]//International Conference on Medical Image Computing and Computer-Assisted Intervention. Cham:Springer Nature Switzerland, 2023:308-317.
+            <br><a href="https://link.springer.com/chapter/10.1007/978-3-031-43993-3_30" target="_blank">https://link.springer.com/chapter/10.1007/978-3-031-43993-3_30</a>
+
+    - Cal: 10月01日
+      Desc: Zhang S, Wang R, Kang Y, et al. Joint Representation of Functional and Structural Profiles for Identifying Common and Consistent 3-Hinge Gyral Folding Landmark[C]//International Conference on Medical Image Computing and Computer-Assisted Intervention. Cham:Springer Nature Switzerland, 2023:163-172.
+            <br><a href="https://link.springer.com/chapter/10.1007/978-3-031-43993-3_16" target="_blank">https://link.springer.com/chapter/10.1007/978-3-031-43993-3_16</a>
+    
+    - Cal: 09月01日
+      Desc: Zhang S, Zhang H, Wang R, et al. A Novel Multi-Modality Framework for Exploring Brain Connectivity Hubs Via Reinforcement Learning Approach[C]//2023 IEEE 20th International Symposium on Biomedical Imaging (ISBI). IEEE, 2023:1-5.
+            <br><a href="https://ieeexplore.ieee.org/abstract/document/10230789" target="_blank">https://ieeexplore.ieee.org/abstract/document/10230789</a>
+    
+    - Cal: 08月11日
+      Desc: Hu H, Yue C, Shi E, et al. Effective Human Motor Imagery Recognition via Segment Pool Based on One-Dimensional Convolutional Neural Network with Bidirectional Recurrent Attention Unit Network[J]. Applied Sciences, 2023, 13(16):9233.           
+            <br><a href="https://www.mdpi.com/2076-3417/13/16/9233" target="_blank">https://www.mdpi.com/2076-3417/13/16/9233</a>
+    
+    - Cal: 07月18日
+      Desc: Zhang S, Shi E, Wu L, et al. Differentiating brain states via multi-clip random fragment strategy-based interactive bidirectional recurrent neural network[J]. Neural Networks, 2023, 165:1035-1049.  
+            <br><a href="https://www.sciencedirect.com/science/article/abs/pii/S0893608023003520" target="_blank">https://www.sciencedirect.com/science/article/abs/pii/S0893608023003520</a>
+
+    - Cal: 07月05日
+      Desc: Wang J, Shi E, Yu S, et al. Prompt engineering for healthcare:Methodologies and applications[J]. arXiv preprint arXiv:2304.14670, 2023.    
+            <br><a href="https://arxiv.org/abs/2304.14670" target="_blank">https://arxiv.org/abs/2304.14670</a>
+   
+    - Cal: 06月01日
+      Desc: Zhang S, Wu J, Shi E, et al. MM-GLCM-CNN:A multi-scale and multi-level based GLCM-CNN for polyp classification[J]. Computerized Medical Imaging and Graphics, 2023:102257.
+            <br><a href="https://www.sciencedirect.com/science/article/abs/pii/S0895611123000757" target="_blank">https://www.sciencedirect.com/science/article/abs/pii/S0895611123000757</a>
+
+   
+
+- Year: 2022
+  Title: 2022年
+  TimeList: 
+    - Cal: 12月16日
+      Desc: Zhang S, Kang Y, Yu S, et al. A Novel Two-Stage Multi-view Low-Rank Sparse Subspace Clustering Approach to Explore the Relationship Between Brain Function and Structure[C]//International Workshop on Machine Learning in Medical Imaging. Cham:Springer Nature Switzerland, 2022:191-200. 
+            <br><a href="https://link.springer.com/chapter/10.1007/978-3-031-21014-3_20" target="_blank">https://link.springer.com/chapter/10.1007/978-3-031-21014-3_20</a>
+
+    - Cal: 10月12日
+      Desc: Zhang S, Wu J, Yu S, et al. A Bagging Strategy-Based Multi-scale Texture GLCM-CNN Model for Differentiating Malignant from Benign Lesions Using Small Pathologically Proven Dataset[C]//International Workshop on Multiscale Multimodal Medical Imaging. Cham:Springer Nature Switzerland, 2022:44-53.
+            <br><a href="https://link.springer.com/chapter/10.1007/978-3-031-18814-5_5" target="_blank">https://link.springer.com/chapter/10.1007/978-3-031-18814-5_5</a>
+
+    - Cal: 09月30日
+      Desc: Yu S, Shi E, Wang R, et al. A hybrid learning framework for fine-grained interpretation of brain spatiotemporal patterns during naturalistic functional magnetic resonance imaging[J]. Frontiers in Human Neuroscience, 2022, 16:944543.
+            <br><a href="https://www.frontiersin.org/articles/10.3389/fnhum.2022.944543/full" target="_blank">https://www.frontiersin.org/articles/10.3389/fnhum.2022.944543/full</a>
