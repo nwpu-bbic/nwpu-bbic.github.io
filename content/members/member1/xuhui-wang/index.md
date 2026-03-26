@@ -1,6 +1,6 @@
 ---
 author: Judy
-title: "哈基灰"
+title: "王旭辉"
 date: 2000-01-01
 summary: 硕士研究生
 categories: Members

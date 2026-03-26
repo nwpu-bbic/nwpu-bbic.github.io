@@ -1,6 +1,6 @@
 ---
 author: Judy
-title: "哈基存"
+title: "杨硕存"
 date: 2000-01-01
 summary: 硕士研究生
 categories: Members
