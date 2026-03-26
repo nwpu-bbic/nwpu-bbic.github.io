@@ -11,7 +11,7 @@ featured_image: ../assets/images/featured/members/xuhui-wang.jpg
 ## <center> ——2024级硕士研究生——
 
 ### · 邮箱
-
+xuhuiwang@mail.nwpu.edu.cn
 
 
 
