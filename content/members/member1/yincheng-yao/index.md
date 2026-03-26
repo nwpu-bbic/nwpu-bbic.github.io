@@ -1,6 +1,6 @@
 ---
 author: Judy
-title: "姚银城"
+title: "哈基城"
 date: 2000-01-01
 summary: 硕士研究生
 categories: Members
