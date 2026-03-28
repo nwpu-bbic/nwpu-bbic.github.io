@@ -10,6 +10,7 @@ featured_image:
 ---
 <div class="flink" id="article-container">
 <div class="friend-list-div" >
+{{< friend name="朱迪" url="/members/member2/zhu-di" logo="images/members/di-zhu.jpg" word="阿里云" >}}
 {{< friend name="胡华文" url="/members/member2/huawen-hu" logo="/images/members/huawen-hu-1.jpg" word="西北工业大学深造读博" >}}
 {{< friend name="岳晨曦" url="/members/member2/chenxi-yue" logo="/images/members/chenxi-yue.jpg" word="国家电网" >}}
 {{< friend name="张海洋" url="/members/member2/haiyang-zhang" logo="/images/members/haiyang-zhang1.jpg" word="科大讯飞" >}}
