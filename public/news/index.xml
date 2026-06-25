@@ -6,8 +6,15 @@
     <description>Recent content in News on NWPU BBIC</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>会议MICCAI 2026发表论文：BrainTM: ：基于层级时空 Transformer-Mamba 模型从功能网络解码大脑状态</title>
+      <link>http://localhost:1313/news/%E8%84%91%E5%BD%B1%E5%83%8F%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/paper_0032_lx/</link>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/%E8%84%91%E5%BD%B1%E5%83%8F%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/paper_0032_lx/</guid>
+      <description>论文“Brain-TM: Decoding Brain States from Functional Networks Using a Hierarchical Spatiotemporal Transformer-Mamba”被会议“Medical Image Computing and Computer-Assisted Intervention 2026”接收</description>
+    </item>
     <item>
       <title>期刊 JBHI 发表论文：基于层次化注意力机制和时序卷积网络的多尺度脑电信号解码方法</title>
       <link>http://localhost:1313/news/%E8%84%91%E6%9C%BA%E6%8E%A5%E5%8F%A3%E4%B8%8E%E6%99%BA%E8%83%BD%E6%9C%BA%E5%99%A8%E4%BA%BA/paper_0033_zk/</link>
