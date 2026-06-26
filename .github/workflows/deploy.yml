@@ -27,7 +27,8 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build
-        run: hugo --minify
+        
+        run: hugo --minify --security.allowContent=[]
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
